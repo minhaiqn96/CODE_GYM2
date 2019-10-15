@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p><strong>CACULATOR</strong></p>
+    <div>
+            <input type="text" size="20" id="enter1">
+            <input type="text" size="20" id="enter2">
+    </div>
+    <p>
+        <button type="button" value="add" onclick="add()">Addition(+)</button>
+        <button type="button" value="sub" onclick="sub()">Subtraction(-)</button>
+        <button type="button" value="mul" onclick="mul()">Multiplication(*)</button>
+        <button type="button" value="div" onclick="div()">Division(-)</button>
+        
+    </p>
+    <strong>RESULT:</strong>
+    <div id="rs"></div>
+    <script>
+        function add(){
+            a = document.getElementById("enter1").value;
+            b = document.getElementById("enter2").value;
+            c = parseInt(a) + parseInt(b);
+            document.getElementById("rs").innerHTML = a+" + "+b+" = "+c;
+        }
+        function sub(){
+            a = document.getElementById("enter1").value;
+            b = document.getElementById("enter2").value;
+            c = parseInt(a) - parseInt(b);
+            document.getElementById("rs").innerHTML = a+ " - "+b+" = "+c;
+        }
+        function mul(){
+            a = document.getElementById("enter1").value;
+            b = document.getElementById("enter2").value;
+            c = parseInt(a) * parseInt(b);
+            document.getElementById("rs").innerHTML = a+" * "+b+" = "+c;
+        }
+        function div(){
+            a = document.getElementById("enter1").value;
+            b = document.getElementById("enter2").value;
+            c = parseInt(a) / parseInt(b);
+            document.getElementById("rs").innerHTML = a+" / "+b+" = "+c;
+        }
+    </script>
+</body>
+</html>

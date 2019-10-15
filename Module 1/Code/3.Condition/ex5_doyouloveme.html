@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <strong>
+        <h1 style="position: absolute; left: 500px; top: 250px">DO YOU LOVE ME?</h1>
+    </strong>
+    <input type="button" id="bty" value="YES" onclick="agree()" style="position: absolute;left:500px;top:350px">
+    <input type="button" id="btn" value=" NO " onmouseover="refuse()" style="position:absolute;left:600px;top:350px">
+
+    <script>
+        function agree() {
+            alert("<3");
+        }
+        function refuse() {
+            let x = Math.round(Math.random() * window.innerHeight);
+            let y = Math.round(Math.random() * window.innerWidth);
+            document.getElementById("btn").style.left = x + "px";
+            document.getElementById("btn").style.top = y + "px";
+        }
+    </script>
+</body>
+
+</html>

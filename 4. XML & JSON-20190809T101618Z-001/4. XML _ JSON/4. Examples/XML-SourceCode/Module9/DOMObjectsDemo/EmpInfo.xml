@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : EmpInfo.xml
+    Author     : vincent
+    Description:
+    Describes information about the Employee
+-->
+<Company>
+    <Employee name="John Andrews" age="32" salary="1200 dollars" qual="Grad">
+        Emp1
+    </Employee>
+    <Employee name="Sara McCarthy" age="29" salary="1500 dollars" qual="Phd">
+        Emp2
+    </Employee>
+    <Employee name="Huang Lee" age="48" salary="7000 dollars" qual="Masters">
+        Emp3
+    </Employee>
+</Company>  

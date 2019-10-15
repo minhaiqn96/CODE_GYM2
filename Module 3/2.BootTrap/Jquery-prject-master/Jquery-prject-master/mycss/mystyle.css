@@ -1,0 +1,32 @@
+.header {
+    height: 50px;
+    width: 100%;
+}
+
+.left {
+    background: rgba(42, 171, 210, 0.01);
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.content {
+    background: rgba(76, 174, 76, 0);
+    height: auto;
+    width: 80%;
+    float: left;
+}
+
+.footer {
+    background: #cfd3ee;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+
+.content p {
+    margin: 20px 0 20px 30px;
+    border-radius: 2px;
+    width: 800px;
+    height: 80px;
+}

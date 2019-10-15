@@ -1,0 +1,30 @@
+
+usquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Ìöúÿÿÿÿ8¢±—Ø-
+Wsquid:S1444"4Make this "public static services_count" field final(›¢º™ıÿÿÿÿ8«—ğ‡Ø-
+usquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¦Ş•üÿÿÿÿ8¢±—Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨üúÈ8½ò–Ø-
+{squid:S00116"WRename this field "name_service" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†’ô¢øÿÿÿÿ8òê€Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨üúÈ8½ò–Ø-
+xsquid:S00116"TRename this field "area_used" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªì˜øıÿÿÿÿ8œ“Å‚Ø-
+rsquid:S00100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‰Šàûÿÿÿÿ8¢±—Ø-
+”"squid:ClassVariableVisibilityCheck"ZMake services_count a static final constant or non-public and provide accessors if needed.(›¢º™ıÿÿÿÿ8«—ğ‡Ø-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®­¾¯8¢±—Ø-
+rsquid:S00100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Á¬¡üÿÿÿÿ8¢±—Ø-
+usquid:S00117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Á¬¡üÿÿÿÿ8¢±—Ø-
+|squid:S3008"YRename this field "services_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¢º™ıÿÿÿÿ8«—ğ‡Ø-
+lsquid:S00100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–»¦I8¢±—Ø-
+lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¬’8¢±—Ø-
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¬’8¢±—Ø-
+ysquid:S00116	"URename this field "max_people" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‘äùÿÿÿÿ8ö–ô€Ø-
+rsquid:S001003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¦Ş•üÿÿÿÿ8¢±—Ø-
+xsquid:S00116
+"TRename this field "type_rent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¤£ıÿÿÿÿ8ĞÊõ€Ø-
+rsquid:S00100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Ìöúÿÿÿÿ8¢±—Ø-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×££ï8¢±—Ø-
+msquid:S00100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰·×8¢±—Ø-
+rsquid:S001007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ôó’ûÿÿÿÿ8¢±—Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨üúÈ8½ò–Ø-
+usquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‰Šàûÿÿÿÿ8¢±—Ø-
+rsquid:S00116"SRename this field "fee_rent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª÷ë®8Â³ñ€Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨üúÈ8½ò–Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨üúÈ8½ò–Ø-

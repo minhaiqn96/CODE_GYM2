@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Form Tao Nhan Vien Moi</h1>
+<a th:href="@{/employee/list}">Tro Lai Danh Sach Nhan Vien</a>
+<th:block th:if="message">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/employee/create}" method="post" th:object="${employees}">
+    <table border="1">
+        <tr>
+            <th>Ma Nhan Vien</th>
+            <td><input th:type="text" th:field="*{ma_nv}"></td>
+            <td><span th:if="${#fields.hasErrors('ma_nv')}" th:errors="*{ma_nv}"></span></td>
+        </tr>
+        <tr>
+            <th>Nhom Nhan Vien</th>
+            <td><input th:type="text" th:field="*{nhom_nv}"></td>
+            <td><span th:if="${#fields.hasErrors('nhom_nv')}" th:errors="*{nhom_nv}"></span></td>
+        </tr>
+        <tr>
+            <th>Ho Ten</th>
+            <td><input th:type="text" th:field="*{name}"></td>
+            <td><span th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span></td>
+        </tr>
+        <tr>
+            <th>Gioi tinh</th>
+            <td><input th:type="text" th:field="*{gioi_tinh}"></td>
+            <td><span th:if="${#fields.hasErrors('gioi_tinh')}" th:errors="*{gioi_tinh}"></span></td>
+        </tr>
+        <tr>
+            <th>So dien thoai</th>
+            <td><input th:type="text" th:field="*{phoneNumber}"></td>
+            <td><span th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></span></td>
+        </tr>
+        <tr>
+            <th>So CMND</th>
+            <td><input th:type="text" th:field="*{cmnd}"></td>
+            <td><span th:if="${#fields.hasErrors('cmnd')}" th:errors="*{cmnd}"></span></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input th:type="text" th:field="*{email}"></td>
+            <td><span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span></td>
+        </tr>
+        <tr>
+            <th>Dia Chi</th>
+            <td><input type="text" th:field="*{address}"></td>
+            <td><p><span th:if="${#fields.hasErrors('address')}" th:errors="*{address}"></span></p></td>
+        </tr>
+    </table>
+    <p></p>
+    <input type="submit" value="Tao Nhan Vien">
+</form>
+</body>
+</html>

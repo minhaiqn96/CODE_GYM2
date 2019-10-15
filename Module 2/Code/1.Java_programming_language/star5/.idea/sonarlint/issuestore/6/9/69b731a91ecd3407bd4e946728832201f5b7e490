@@ -1,0 +1,19 @@
+
+>squid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+bsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÜŸ•
+1squid:S1220""Move this file to a named package.
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì“›¨
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğâ™Îüÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(öòóÉ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(´’œÊ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(îƒ÷¸
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÜŸ•
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨ÌÿÎ
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(Áë¥ÿ

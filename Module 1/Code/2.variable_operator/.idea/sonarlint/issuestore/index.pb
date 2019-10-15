@@ -1,0 +1,17 @@
+
+8
+ex1.html,e\9\e92971b6f78e5f2682b52e26bad61b091e75685c
+8
+ex2.html,0\6\0695a5ac1bf2c21ca43605be4d73548f757f6bd3
+8
+ex3.html,3\a\3ae8698ec5b2029c6c61133531673debfc30e4ec
+8
+ex4.html,6\4\64e4c50c34892497f6c9bfaf4cd1a0de6c9f2525
+B
+operator/lap1.html,b\d\bdd4b9626384e9dc53ad5a02586c5d007d516c9e
+B
+variable/lap1.html,3\9\3961265ba6b3792f5495d843050b2fc01fba7067
+B
+variable/lap2.html,3\d\3d323b351d9cf5d8765c0ade6947233c275763f4
+B
+variable/lap3.html,9\b\9b4b358123e87fe45222a10dd3e63094b270f9b3

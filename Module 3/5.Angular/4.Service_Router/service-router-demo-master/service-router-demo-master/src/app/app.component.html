@@ -1,0 +1,8 @@
+<div style="border: green solid 1px; padding: 10px">
+<p>Here is app-component</p>
+<nav>
+    <a *ngIf="admin" routerLink="dictionary">Dictionary Admin page</a>
+    <p *ngIf="!admin">You is a member, not an admin</p>
+</nav>
+</div>
+<router-outlet></router-outlet>

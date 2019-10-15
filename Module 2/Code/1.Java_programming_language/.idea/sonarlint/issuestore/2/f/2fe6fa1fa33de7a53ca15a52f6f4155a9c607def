@@ -1,0 +1,20 @@
+
+1squid:S1220""Move this file to a named package.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰íÿŒüÿÿÿÿ
+O
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(²ìÚê
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘
+>squid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(¸œ§ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÑ	
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(á–¡¤
+xsquid:S1192"\Define a constant instead of duplicating this literal "Greatest common factor is: " 3 times.(‰íÿŒüÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(“Õ…Øøÿÿÿÿ
+Ssquid:S2589"7Remove this expression which always evaluates to "true"(·ßŠÿÿÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(á–¡¤

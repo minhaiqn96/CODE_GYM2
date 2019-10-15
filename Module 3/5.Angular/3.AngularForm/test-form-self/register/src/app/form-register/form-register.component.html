@@ -1,0 +1,58 @@
+<form [formGroup]="profileForm" (submit)="onSubmitForm()">
+    <h1>FORM REGISTER - REACTIVE</h1>
+    <div class="form-group">
+        <label for="username">UserName</label>
+        <input formControlName="username" type="text" class="form-control" id="username" aria-describedby="emailHelp"
+            placeholder="Enter username" required>
+        <small id="usernameHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
+        <div *ngIf="username.invalid && username.touched" class="alert alert-primary">
+            <p *ngIf="username?.errors?.required">Username is not empty</p>
+            <p *ngIf="username?.errors?.usernameBidden">UserName can not be 'hai'</p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input formControlName="email" type="email" class="form-control" id="email" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+        <div *ngIf="email.invalid && email.touched" class="alert alert-danger">
+            <p *ngIf="email?.errors?.required">Email is not be empty</p>
+            <p *ngIf="email?.errors?.email">This is must be an email</p>
+        </div>
+    </div>
+
+    <div formGroupName="passwordGroup">
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input required formControlName="password" type="password" class="form-control" id="password" placeholder="Password">
+            
+            <div *ngIf="passwordGroup.controls.password.invalid && passwordGroup.controls.password.touched" class="alert alert-success">
+                <p *ngIf="passwordGroup.controls.password?.errors?.required">Password is not be empty</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input required formControlName="confirmPassword" type="password" class="form-control" id="confirmPassword"
+                placeholder="Confirm Password">
+                <div *ngIf="passwordGroup.controls.confirmPassword.invalid && passwordGroup.controls.confirmPassword.touched" class="alert alert-warning">
+                    <p *ngIf="passwordGroup.controls.confirmPassword?.errors?.required">Confirm Password is not be empty</p>
+                </div>
+        </div>
+
+        <div *ngIf="passwordGroup.errors?.passwordNotMatch && passwordGroup.touched" class="alert alert-success">
+            <p>Password is not match</p>
+        </div>
+    </div>
+
+
+    <div class="form-group form-check">
+        <input formControlName="check" type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

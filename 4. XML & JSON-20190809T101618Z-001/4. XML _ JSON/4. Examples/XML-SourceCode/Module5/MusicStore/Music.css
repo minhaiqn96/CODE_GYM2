@@ -1,0 +1,12 @@
+/* 
+    Document   : Music.css
+    Author     : vincent
+    Description:
+        Style sheet for Music.xml.
+*/
+
+Artist { color: blue }
+
+* { display: block }
+
+#favorite { background-color: lightblue; color: blue } 

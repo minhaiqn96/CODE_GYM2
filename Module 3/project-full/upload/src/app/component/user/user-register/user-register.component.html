@@ -1,0 +1,45 @@
+<form [formGroup]="userForm" (submit)="onSubmitForm()">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input formControlName="username" type="text" class="form-control" id="username" placeholder="Username">
+        <div *ngIf="username.invalid && username.touched" class="alert alert-danger">
+            <p *ngIf="username.errors?.required"> Username is required</p>
+            <p *ngIf="username.errors?.forbiddenUsername">
+                Username can not be 'codegym'
+            </p>
+            <p *ngIf="username.errors?.minlength">
+                    More then 6 characters, plz...
+                </p>
+        </div>
+    </div>
+    <div formGroupName="password">
+        <div class="form-group">
+            <label for="firstPassword">Password</label>
+            <input formControlName="firstPassword" type="password" class="form-control" id="firstPassword" placeholder="Password">
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirm password</label>
+            <input formControlName="confirmPassword" type="password" class="form-control" id="confirmPassword"
+                placeholder="Confirm password">
+        </div>
+
+        <div *ngIf="password.invalid && password.touched" class="alert alert-danger">
+            <p *ngIf="password.errors?.passwordnotmatch">
+                Password does not match
+            </p>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input formControlName="email" type="email" class="form-control" id="email" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="userForm.get('email').invalid && userForm.get('email').touched">
+            Invalid email!
+          </div>
+    <button type="submit" class="btn btn-primary">Create New User</button>
+</form>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let res;
+        let value = [-1, 4, 100, 10, -5];
+        // value.reverse();
+        let first = 0;
+        let last = value.length - 1;
+        while (first < last) {
+            res = value[first];
+            value[first] = value[last];
+            value[last] = res;
+            first++;
+            last--;
+        }
+        document.write(value);
+    </script>
+</body>
+
+</html>

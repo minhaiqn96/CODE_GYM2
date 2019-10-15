@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="StockList.xsl"?>
+
+<!--
+    Document   : StockExchange.xml
+    Author     : vincent
+    Description:
+        This XML document is used to store information about some companies 
+        that are listed in the Stock Exchange.
+-->
+
+<!-- Stock list -->
+<Stocks>
+  <Stock symbol="INTC">
+    <Name>Intel Corporation</Name>
+    <ShareValue>224.24</ShareValue>
+    <Director>Mr. Craig R. Barrett</Director>
+  </Stock>
+  <Stock symbol="CISCO">
+    <Name>Cisco Systems, Inc.</Name>
+    <ShareValue>194.76</ShareValue>
+    <Director>Bob Gleichauf</Director>
+  </Stock>
+  <Stock symbol="DELL">
+    <Name>Dell Computer Corporation</Name>
+    <ShareValue>179.25</ShareValue>
+    <Director>Leslie Sobon</Director>
+  </Stock>
+  <Stock symbol="MSFT">
+    <Name>Microsoft Corporation</Name>
+    <ShareValue>167.01</ShareValue>
+    <Director>Steven VanRoekel</Director>
+  </Stock>
+  <Stock symbol="SUNW">
+    <Name>Sun Microsystems, Inc.</Name>
+    <ShareValue>124.54</ShareValue>
+    <Director>UK Charlotte</Director>
+  </Stock>
+  <Stock symbol="CMGI">
+    <Name>CMGI, Inc.</Name>
+    <ShareValue>684.96</ShareValue>
+    <Director>Simon Cherry</Director>
+  </Stock>
+</Stocks>

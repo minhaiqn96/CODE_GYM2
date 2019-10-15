@@ -1,0 +1,26 @@
+<!-- <app-user-login></app-user-login> -->
+<button (click)="addPost()" class="btn btn-primary">Add Post</button>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Til</th>
+            <th scope="col">Des</th>
+            <th scope="col">Act</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let post of listPost;index as i">
+            <td>{{post.title}}</td>
+            <td>{{post.description}}</td>
+            <td>
+                <tr>
+                    <td>   <a [routerLink]="['/view',post.id]">View</a></td>
+                    <td>   <a [routerLink]="['/edit',post.id]">Edit</a> </td>
+                    <td> <a (click)="deletePost(i)">Delete</a>  </td>
+                </tr>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<router-outlet></router-outlet>

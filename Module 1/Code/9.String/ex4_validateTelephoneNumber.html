@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<input type="text" id="phoneNumber" placeholder="Enter the Number...">
+<input type="submit" onclick="validatePhoneNumber()" value="Check">
+
+<body>
+    <script>
+        
+        function isTelephoneNumber(str) {
+            regexp = /^([(][84]{2}[)])(?:-[(][0-9]{10}[)])$/;
+            return regexp.test(str);
+        }
+
+        function validatePhoneNumber() {
+            let phoneNumber = document.getElementById("phoneNumber").value;
+            if (isTelephoneNumber(phoneNumber)) {
+                alert("The telephone number is validate ");
+            } else {
+                alert("The telephone number isn't validate ");
+            }
+        }
+    </script>
+</body>
+
+</html>

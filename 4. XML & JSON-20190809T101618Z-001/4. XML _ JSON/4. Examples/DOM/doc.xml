@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : newXMLDocument.xml
+    Created on : February 23, 2007, 4:32 PM
+    Author     : debjanid
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<CustomerOrder>
+   <Customer>
+      <FirstName> Bob </FirstName>
+      <LastName> Hustead </LastName>
+      <CustId> abc.123 </CustId>
+   </Customer>
+   <OrderItems>
+      <OrderItem>
+         <Quantity> 1 </Quantity>
+              <ProductCode> 48.GH605A </ProductCode>
+         <Description> Pet Rock </Description>
+         <Price> 19.99 </Price>
+      </OrderItem>
+      <OrderItem>
+         <Quantity> 12 </Quantity>
+              <ProductCode> 47.9906Z </ProductCode>
+         <Description> Bazooka Bubble Gum </Description>
+         <Price> 0.33 </Price>
+      </OrderItem>
+      <OrderItem>
+         <Quantity> 2 </Quantity>
+              <ProductCode> 47.7879H </ProductCode>
+         <Description> Flourescent Orange Squirt Gun </Description>
+         <Price> 2.50 </Price>
+      </OrderItem>
+   </OrderItems>
+</CustomerOrder>

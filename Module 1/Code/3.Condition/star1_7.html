@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Viết chương trình C++ để tính cước điện thoại bàn cho một hộ gia đình với các thông số như sau:
+        // Phí thuê bao bắt buộc là 25 nghìn.
+        // 600 đồng cho mỗi gọi của 50 phút đầu tiên.
+        // 400 đồng cho mỗi phút gọi của 150 phút tiếp theo.
+        // 200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.
+        let callMinute;
+        do {
+            callMinute = parseInt(prompt("Enter the number of minutes to call: "));
+        } while (callMinute < 0);
+
+        if (callMinute <= 50) {
+            document.write("Fee for the call is: " + (callMinute * 600 + 25));
+        }
+        else if (callMinute <= 200) {
+            document.write("Fee for the call is: " + ((callMinute - 50) * 400 + 50 * 600 + 25));
+        }
+        else {
+            document.write("Free for the call is: " + (25 + 50 * 600 + 150 * 400 + ((callMinute - 200) * 200)));
+        }
+    </script>
+</body>
+
+</html>

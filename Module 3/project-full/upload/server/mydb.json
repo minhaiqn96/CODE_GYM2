@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sasukeemmm",
+      "password": "travelling",
+      "email": "npt@gmail.conm"
+    },
+    {
+      "id": 2,
+      "username": "ikiemaaa",
+      "password": "123abc",
+      "email": "npt@gmail.conm"
+    },
+    {
+      "username": "diem123",
+      "password": "diem123",
+      "id": 3
+    },
+    {
+      "username": "thao123",
+      "password": "thao123",
+      "id": 4
+    },
+    {
+      "username": "utthao123",
+      "password": "utthao123",
+      "id": 5
+    },
+    {
+      "username": "hai123",
+      "password": "hai123",
+      "id": 6
+    },
+    {
+      "username": "haihai",
+      "password": "hai123",
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "npt123456",
+      "description": "travelling3",
+      "content": "travelling is fun"
+    },
+    {
+      "id": 2,
+      "title": "Cho anh nhìn về phía em",
+      "description": "coconut",
+      "content": "Trên đời này có hai thứ không thể nắm giữ, một là chuyện cũ, một là mưa hoa bay"
+    }
+  ],
+  "books": [
+    {
+      "id": 3,
+      "title": "toan cao capasdsad hai",
+      "author": "pham van binh",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "ngu van 7",
+      "author": "bgdvdt",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "Tin việc làm",
+      "author": "pham van binh",
+      "completed": false
+    }
+  ]
+}

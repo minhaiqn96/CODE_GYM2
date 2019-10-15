@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let Apple = function () {
+            this.weight = 10;
+
+            this.decrease = function () {
+                return this.weight--;
+            }
+            this.isEmpty = function () {
+                if (this.getWeight() == 0) {
+                    return true;
+                }
+                return false;
+            }
+            this.getWeight = function () {
+                return this.weight;
+            }
+        };
+
+        let Human = function (name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+
+            this.isMale = function () {
+                if (this.gender == "Male") {
+                    return true;
+                }
+                else return false;
+            }
+            this.checkApple = function (apple) {
+                return apple.getWeight();
+            }
+            this.eatApple = function (apple) {
+                if (apple.getWeight() > 0) {
+                    apple.decrease();
+                    this.weight++;
+                }
+            }
+            this.sayAnything = function (something) {
+                console.log(something);
+            }
+            this.getName = function () {
+                return this.name;
+            }
+            this.setName = function (name) {
+                this.name = name;
+            }
+            this.getWeight = function () {
+                return this.weight;
+            }
+            this.setWeight = function (weight) {
+                this.weight = weight;
+            }
+            this.setGender = function (gender) {
+                this.gender = gender;
+            }
+        };
+
+        let apple = new Apple();
+        let adam = new Human("Adam", "Male", 50);
+        let eva = new Human();
+        console.log(adam.getName());
+        console.log(adam.isMale());
+        console.log(adam.getWeight());
+        console.log("*********");
+
+        eva.setName("Eva");
+        eva.setGender("Female");
+        eva.setWeight(40);
+
+        console.log(eva.isMale());
+        console.log(apple.getWeight());
+        console.log("*********");
+
+        for (let i = 0; i < 10; i++) {
+            adam.eatApple(apple);
+            eva.eatApple(apple);
+        }
+        console.log(apple.getWeight());
+        console.log(adam.getWeight());
+        console.log(eva.getWeight());
+        console.log("*********");
+        console.log(adam.checkApple(apple));
+        console.log(apple.isEmpty());
+        adam.sayAnything("Hello Eva...");
+    </script>
+</body>
+
+</html>

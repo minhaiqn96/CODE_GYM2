@@ -1,0 +1,55 @@
+
+>squid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+csquid:S1192"LDefine a constant instead of duplicating this literal "* * * * * *" 8 times.(Æİ‘
+1squid:S1220""Move this file to a named package.
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì“›¨
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ø¦Úˆıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ†Àì
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ãŠá™ûÿÿÿÿ
+T
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ïÚâÀşÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(£®€“
+g
+squid:S128)"LEnd this switch case with an unconditional break, return or throw statement.(£Ş¾Ëşÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¡ä©
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Íºíã
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(áÃø
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬Û˜ßúÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔëıÃ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(íäªıÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÂˆÜıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(Æİ‘
+T
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ı—ğşşÿÿÿÿ
+O
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Æİ‘
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Æİ‘
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(»ÒŒÇøÿÿÿÿ

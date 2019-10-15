@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 200px;
+            padding-left: 500px
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let array = [];
+        for (let i = 0; i < 100; i++) {
+            array[i] = Math.ceil(Math.random() * 100);
+        }
+
+        function dispArr(arr) {
+            for (let i = 0; i < arr.length; i++) {
+                document.write(arr[i] + "  ");
+                if (i % 10 == 9) {
+                    document.write("<br>");
+                }
+            }
+        }
+
+        function countOccurrence(arr, x) {
+            let count = 0;
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] == x) {
+                    count = count + 1;
+                }
+            }
+            return count;
+        }
+
+        dispArr(array);
+        let numberNeedFind = 50;
+        let count = countOccurrence(array, numberNeedFind);
+        document.write("<br>" + "The count occurrence of " + numberNeedFind + " in array is: " + count + " times");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : BookData.xml
+    Author     : vincent
+    Description:
+        Purpose of the document follows.
+-->
+
+<Catalog>
+  <Book id="101" category="Software">
+    <BookName> XML in a Nutshell </BookName>
+    <AuthorName> Elliotte Rusty Harold, W. Scott Means </AuthorName>
+    <ISBN> 0-07-91370-4 </ISBN>
+    <Publisher> BPB Publication </Publisher>
+    <Price> 39.95 </Price>
+  </Book>
+  <Book id="121" category="General">
+    <BookName> Who Moved My Cheese </BookName>
+    <AuthorName> Spencer, M.D. Johnson, Kenneth H. Blanchard </AuthorName>
+    <ISBN> 0-08-91476-8 </ISBN>
+    <Publisher> McGraw-Hill </Publisher> 
+    <Price> 19.95 </Price>
+  </Book>
+</Catalog>

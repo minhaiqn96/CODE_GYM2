@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 120px;
+            padding-left: 450px
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let sout;
+        // sout = "<table border='1' width='300' cellspacing='10' cellpading='3'>";
+        // for(let i=1;i<=10;i++){
+        //     sout = sout + "<tr>";
+        //     for(let j=1;j<=10;j++){
+        //         sout = sout + "<td>" + i * j + "</td>";
+        //     }
+        //     sout = sout + "</tr>";
+        // }
+        // sout = sout + "</table>";
+        // document.write(sout);
+
+        // let i = j = 1;
+        // sout = "<table border='1' width='500' cellspacing='10' cellpading='3'>";
+        // while(i<=10){
+        //     sout = sout + "<tr>";
+        //     while(j<=10){
+        //         sout = sout + "<td>" + i * j + "</td>";
+        //         j++;
+        //     }
+        //     sout = sout + "</tr>";
+        //     j=1;
+        //     i++;
+        // }
+        // sout = sout + "</table>";
+        // document.write(sout);
+
+        document.write("<table border='1' width=50% cellspacing='10' cellpading='3'>");
+        for (let i = 1; i <= 10; i++) {
+            document.write("<tr>");
+            for (let j = 1; j <= 10; j++) {
+                document.write("<td>" + i * j + "</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+
+˜squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«¹”°
+psquid:S00116"XRename this field "PRICE_MASSAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ìƒ‡
+psquid:S00116"XRename this field "PRICE_KARA0KE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œè‘¿
+rsquid:S00116	"URename this field "PRICE_FOOD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¬ØÜúÿÿÿÿ
+nsquid:S00116
+"VRename this field "PRICE_WATER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Ô‡Œ
+ksquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÀä¾ÿÿÿÿÿ
+fsquid:S00100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùð¼¼
+esquid:S00100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ã¬
+esquid:S001000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎµêP

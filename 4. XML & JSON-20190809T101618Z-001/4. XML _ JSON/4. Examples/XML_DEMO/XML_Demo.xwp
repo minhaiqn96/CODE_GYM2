@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<project name="XML_Demo.xwp" homepath="F:\TienTTT\4. XML" example_xsl="" example_xml="" output_folder="" output_ext="">
+	<group name="DTD/Schema Files" filter="*.dtd;*.xsd" description="This folder contains DTDs and XML Schema Files." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="Stylesheets" filter="*.css;*.xsl;*.xslt" description="This folder contains CSS and XSLT Stylesheets." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="XML Files" filter="*.xml" description="This folder contains XML Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\TienTTT\4. XML\XML_DEMO\Modul2.1_NameSpace.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="31" caret_pos_y="1" sel_start_x="31" sel_start_y="1" sel_end_x="31" sel_end_y="1" window_x1="26" window_x2="1418" window_y1="26" window_y2="568" state="3"/>
+		</file>
+		<file path="F:\TienTTT\4. XML\XML_DEMO\Modul2.2_NameSpace.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\TienTTT\4. XML\Modun1.1.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\TienTTT\4. XML\Modul1.2.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	<group name="Output Files" filter="*.htm;*.html" description="This folder receives output from XSL transformations." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+</project>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61A5lkj1eXL._SX425_.jpg" id="myImage"
+            style="position: absolute; width: 150px">
+        <p>Click button blow to move the image to right</p>
+        <input type="button" id="bt" value="Move" onclick="move();">
+    </form>
+    <script>
+        let imgObj;
+        function init() {
+            imgObj = document.getElementById("myImage");
+            imgObj.style.position = "relative";
+            imgObj.style.left = "0px";
+        }
+        function move() {
+            imgObj.style.left = parseInt(imgObj.style.left) + 30 + "px";
+        }
+        window.onload = init;
+    </script>
+</body>
+
+</html>

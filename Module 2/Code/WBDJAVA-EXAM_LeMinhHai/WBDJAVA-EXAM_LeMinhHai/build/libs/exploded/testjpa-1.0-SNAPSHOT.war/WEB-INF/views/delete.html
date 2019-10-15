@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Form Xoa Nhan Vien</h1>
+<p></p>
+<a th:href="@{/employee/list}">Tro Lai Danh Sach Nhan Vien</a>
+<p></p>
+<th:block th:if="message">
+    <p th:text="${message}"></p>
+</th:block>
+
+<form th:action="@{/employee/delete/}" method="post" th:object="${employee}">
+    <input th:type="hidden" th:field="*{id}" name="id">
+    <table border="1">
+        <tr>
+            <td>Ma Nhan Vien</td>
+            <td th:text="${employee.ma_nv}"></td>
+        </tr>
+        <tr>
+            <td>Nhom Nhan Vien</td>
+            <td th:text="${employee.nhom_nv}"></td>
+        </tr>
+        <tr>
+            <td>Ho Ten</td>
+            <td th:text="${employee.name}"></td>
+        </tr>
+        <tr>
+            <td>Gioi tinh</td>
+            <td th:text="${employee.gioi_tinh}"></td>
+        </tr>
+        <tr>
+            <td>So Dien Thoai</td>
+            <td th:text="${employee.phoneNumber}"></td>
+        </tr>
+        <tr>
+            <td>So CMND</td>
+            <td th:text="${employee.cmnd}"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td th:text="${employee.email}"></td>
+        </tr>
+        <tr>
+            <td>Dia Chi</td>
+            <td th:text="${employee.address}"></td>
+        </tr>
+    </table>
+    <p></p>
+    <input type="submit" value="Xoa Nhan Vien">
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!-- <div class="name-card">
+    <div class="name-card__content-left">
+      <img src="/assets/img/cat.jpg" alt="Logo" class="name-card__avatar">
+    </div>
+    <div class="name-card__content-right">
+      <h3 class="name-card__heading">{{ cardName }}</h3>
+      <p class="name-card__text">{{ email }}</p>
+      <p class="name-card__text">{{ phone }}</p>
+    </div>
+  </div> -->
+
+<div>
+  <input #name placeholder="Enter the name here" value="">
+  <button (click)="addName(name.value)">ADD</button>
+  <!-- <input type="submit" value="Add" > -->
+  <ul>
+    <li *ngFor="let name of arrayName">
+      {{name}}
+    </li>
+  </ul>
+</div>

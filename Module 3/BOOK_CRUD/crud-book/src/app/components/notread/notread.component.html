@@ -1,0 +1,36 @@
+<div class="home">
+    <div class="backgroundHome">
+        <h1 class="text">Danh Sach Chua Doc</h1>
+    </div>
+    <div>
+        <button class="btn btn-success" type="button" [routerLink]="['/books']"
+            routerLinkActive="router-link-active">Back To Home</button>
+    </div>
+    <br>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">NotRead</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let listbook of listBookNotRead; index as i">
+                <td *ngIf='listbook.read == false' [routerLink]="['/books',listbook.id]"
+                    routerLinkActive="router-link-active">{{listbook.name}}</td>
+                <td *ngIf='listbook.read == false' (click)='OnChange(i)'>
+                    <p>Click Neu Da Doc Xong</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <button class="btn btn-primary" type="button" [routerLink]="['/books/create']"
+            routerLinkActive="router-link-active">Create New Book NotRead</button>
+    </div>
+    <div>
+        <button class="btn btn-danger" type="button" [routerLink]="['/books/readed']"
+            routerLinkActive="router-link-active">Danh Sach Da Doc</button>
+    </div>
+    <br><br><br><br><br>
+</div>

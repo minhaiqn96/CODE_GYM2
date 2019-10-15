@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75167101-fb19-4601-84e3-6627b3e34386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/12.Web/lap1/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module_4/BackEnd-JV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../NOTE-COMMAND/FormatCode.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex1/src/controllers/ConvertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex1/web/WEB-INF/views/viewVND.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex2/src/controllers/DictionaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex2/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex2/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/ex2/web/WEB-INF/views/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/lap1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/15.Spring MVC/lap1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/ex1/sanwich.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/ex1/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/ex1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/ex1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/lap2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap2/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/modules/spring-email-validation_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/src/main/java/controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap3/src/main/webapp/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/modules/spring-timezone_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/src/main/java/controller/TimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/src/com/codegym/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/src/com/codegym/model/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/src/com/codegym/model/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/web/WEB-INF/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/web/WEB-INF/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/16.Spring_Controller/web/WEB-INF/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Advanced_Object_Oriented_Design/src/animaledible/abs/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Advanced_Object_Oriented_Design/src/animaledible/cla/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Advanced_Object_Oriented_Design/src/animaledible/cla/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Advanced_Object_Oriented_Design/src/animaledible/main/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/AddElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/ex1/AddElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/ex2/FindMaxIn2DimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/lap1/ConvertTemperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/lap2/FindValueInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/lap3/FindMaxInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/lap4/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/lap5/ArrayIndexOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/star1/ReserveElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/star4/PoolingArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/star5/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/star6/DeleteElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Array_And_Method/src/star8/SumDiagonalSquareMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/ClassAndObject/src/ex1/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/ClassAndObject/src/ex2/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/ClassAndObject/src/lap1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-method-extraction-master/src/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-method-extraction-master/src/CylinderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-variable-extraction-master/src/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-variable-extraction-master/src/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/aaaaaa/src/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/CleanCode_Refactoring/src/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/DataAndAlgorithm/src/dynamicphonelist/PhoneList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/DataAndAlgorithm/src/ex1/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/DataAndAlgorithm/src/ex2/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/DataAndAlgorithm/src/lap1/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/ex1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/ex1/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/impl/CircleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Extend/src/lap1/impl/CircleComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/JSP_And_JSTL/ex2/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/JSP_And_JSTL/lap1/web/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/2star/src/Show20FirstPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/ex1/src/ShowHello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/ex2/src/ReadNumbersToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap1/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap10/src/ApplicationCalculateLoanInterest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap2/src/DeclareAndUseVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap3/src/AreaRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap4/src/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap6/src/CountDaysOfMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap7/src/CheckPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap8/src/DesignMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/lap9/src/UCLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/star1/src/IsLeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Java_programming_language/star2/src/BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/ex1/src/controller/ProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/ex1/web/product/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/lap1/.idea/libraries/taglibs_standard_spec_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/lap1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/lap1/src/customerManage/controller/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/lap1/src/customerManage/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/MVC Model/lap1/web/customer/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/WebDesign/.idea/libraries/javax_servlet_3_0_0_v201112011016_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/WebDesign/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/WebDesign/src/lap2_simple_login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/ex1/src/ProductDiscountCalculatorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap1/src/ServerTimeServlet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap2/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap3/src/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/lap4/src/TranslationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/src/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/untitled/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/untitled1/.idea/libraries/javax_servlet_3_0_0_v201112011016_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Web/untitled1/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/demoTomcat/src/Servlet3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/src/testJava/helloWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/CountBicycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/FilingCabinet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/Furama.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/InfoEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/SwimmingPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/accomodation/Accomodation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/accomodation/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/accomodation/Tent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/accomodation/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/entertainment/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/entertainment/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/entertainment/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/entertainment/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/entertainment/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/payment/MasterCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/payment/Visa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Furama/src/payment/inter/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module_4/C0519G1-DN/database/Dump20190828.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module_4/FontEnd/FontEnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Thời khóa biểu C0519G1 (1).xlsx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Furama" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ra8ZwujhTYyI2XCgaP4WahcJNs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\JAVA-BackEnd_C0519H_TRUONGTHITHANHDIEM\JAVA\caseStudy\src\model" />
+      <recent name="E:\WorkSpace\JAVA-BackEnd_C0519H_TRUONGTHITHANHDIEM\JAVA\caseStudy\src\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main1">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Main1" />
+      <module name="caseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Main2" />
+      <module name="caseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Main4" />
+      <module name="caseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Main5" />
+      <module name="caseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Main6" />
+      <module name="caseStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main6" />
+        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75167101-fb19-4601-84e3-6627b3e34386" name="Default Changelist" comment="" />
+      <created>1568945309227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568945309227</updated>
+      <workItem from="1568945310485" duration="6591000" />
+      <workItem from="1568963757602" duration="16387000" />
+      <workItem from="1569164773527" duration="4360000" />
+      <workItem from="1569202390247" duration="19071000" />
+      <workItem from="1569381587935" duration="14888000" />
+      <workItem from="1569467780063" duration="597000" />
+      <workItem from="1569554315021" duration="1581000" />
+      <workItem from="1569658788537" duration="4644000" />
+      <workItem from="1569754324282" duration="1587000" />
+      <workItem from="1569810217197" duration="7590000" />
+      <workItem from="1569893907177" duration="900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>caseStudy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31808278" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

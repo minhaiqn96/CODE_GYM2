@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 2.0.1.22 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Wattle Software</Company_Name>
+		<Address_1>PO Box 600</Address_1>
+		<Address_2 />
+		<City_Town>Castle Hill</City_Town>
+		<State_Province>NSW</State_Province>
+		<Zip_Postal_Code>2154</Zip_Postal_Code>
+		<Country>Australia</Country>
+		<Company_WebSite_URL>http://XMLwriter.net/</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Wattle</Author_First_Name>
+			<Author_Last_Name>Software</Author_Last_Name>
+			<Author_Email>sales@xmlwriter.net</Author_Email>
+			<Contact_First_Name>Wattle</Contact_First_Name>
+			<Contact_Last_Name>Software</Contact_Last_Name>
+			<Contact_Email>sales@XMLwriter.net</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@XMLwriter.net</Sales_Email>
+			<Support_Email>support@XMLwriter.net</Support_Email>
+			<General_Email>support@XMLwriter.net</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone>+612 8572 5296</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>XMLwriter XML Editor</Program_Name>
+		<Program_Version>2.7</Program_Version>
+		<Program_Release_Month>06</Program_Release_Month>
+		<Program_Release_Day>18</Program_Release_Day>
+		<Program_Release_Year>2005</Program_Release_Year>
+		<Program_Cost_Dollars>99</Program_Cost_Dollars>
+		<Program_Cost_Other_Code>AUD</Program_Cost_Other_Code>
+		<Program_Cost_Other>139.00</Program_Cost_Other>
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win95,Win98,WinME,WinNT 4.x,Windows2000,WinXP,Windows2003</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Development Tools</Program_Specific_Category>
+		<Program_Category_Class>Web Development::XML/CSS Tools</Program_Category_Class>
+		<Program_Categories>XML Editors, XML Tools</Program_Categories>
+		<Program_System_Requirements />
+		<Includes_JAVA_VM>N</Includes_JAVA_VM>
+		<Includes_VB_Runtime>N</Includes_VB_Runtime>
+		<Includes_DirectX>N</Includes_DirectX>
+		<File_Info>
+			<Filename_Versioned>XMLwriter27.zip</Filename_Versioned>
+			<Filename_Previous>XMLwriter26.zip</Filename_Previous>
+			<Filename_Generic>XMLwriter.zip</Filename_Generic>
+			<Filename_Long>XMLwriter27.zip</Filename_Long>
+			<File_Size_Bytes>4245024</File_Size_Bytes>
+			<File_Size_K>4145</File_Size_K>
+			<File_Size_MB>4.05</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>30</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>xml, xml editor, xml software, xml tool, schema editor, dtd editor, xsl editor, xsl transformation, xsd editor, schema, xml schema, w3c schema, dtd, xsl, xslt, xsd, document editor, xslt designer, ide, xml tools, wap, wml, xml spy</Keywords>
+			<Char_Desc_45>XMLwriter is a versatile XML editor.</Char_Desc_45>
+			<Char_Desc_80>XMLwriter is a powerful award-winning XML editor for Windows.</Char_Desc_80>
+			<Char_Desc_250>XMLwriter is a powerful XML editor for Windows designed to help web authors and web application programmers take advantage of the latest XML and XML-related technologies such as XSLT and XSD Schemas.</Char_Desc_250>
+			<Char_Desc_450>XMLwriter is a powerful XML editor designed to help web authors and application programmers take advantage of the latest XML and XML-related technologies such as XSLT and XSD Schema.
+
+XMLwriter provides users with an extensive range of XML functionality within a refined IDE that guides you with intelligent entry helpers and comprehensive on-line help. Naturally the user interface is fully customizable to fit the way you like to work.</Char_Desc_450>
+			<Char_Desc_2000>XMLwriter is a powerful XML editor for Windows designed to help web editors and programmers take advantage of the latest XML and XML-related technologies such as XSLT and XSD Schema.
+
+XMLwriter provides users with an extensive range of XML functionality such as: validation of XML documents against a DTD or XSD Schema and conversion of DTDs to the newer XSD Schema format or vice versa. XMLwriter can convert XML to HTML using XSLT stylesheets or users can combine CSS with XML for direct formatting of XML data. Further increasing XMLwriter's flexibility are User Tools that can be configured to run external applications (such as third-party XML parsers) from within the program. 
+
+Especially designed to manage projects, XMLwriter's Integrated Development Environment (IDE) provides useful project management features such as a structured Project View workspace, and batch processing of files. Intelligent entry helpers guide you as you create documents and customizable code snippets are available for often used text. Naturally the user interface is fully customizable to fit the way you like to work, and comprehensive on-line help including an XML syntax guide are included.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://XMLwriter.net/</Application_Info_URL>
+			<Application_Order_URL>http://XMLwriter.net/purchase/purchase.shtml</Application_Order_URL>
+			<Application_Screenshot_URL>http://XMLwriter.net/images/fullscreen.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://XMLwriter.net/images/xmlwicon.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://XMLwriter.net/pad/XMLwriter.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://XMLwriter.net/download/XMLwriter27.zip</Primary_Download_URL>
+			<Secondary_Download_URL>ftp://ftp.XMLwriter.net/XMLwriter27.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>See section 9 of the End User License Agreement (EULA).</Distribution_Permissions>
+		<EULA>WATTLE SOFTWARE END-USER LICENSE AGREEMENT
+
+XMLwriter 2.7
+
+1. GENERAL
+
+This End-User License Agreement ("EULA") is a legal agreement between you and Wattle Software for the Wattle Software products identified above, which may include computer software and associated media, electronic documentation and printed materials ("The Software"). By installing, copying, distributing or otherwise using The Software you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA you must not install, use or distribute The Software, and you must destroy all copies of The Software that you have. If The Software was purchased by you, and you have not installed, copied or otherwise used The Software, you may return it to Wattle Software for a full refund.
+
+The Software is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The Software is licensed, not sold and always remains the property of Wattle Software.
+
+2. LICENSING
+
+If you have not paid the registration fee for The Software, you are hereby granted an evaluation license to use The Software as described in Sections 1, 2.1 and Sections 3 - 10 below.
+
+If you have paid the registration fee for The Software, you are hereby granted a license to use The Software as described in Sections 1, 2.2 and Sections 3 - 10 below.
+
+2.1. EVALUATION LICENSE
+
+You may:
+
+ Subject to the terms of this EULA, use The Software for evaluation purposes without charge for a period of thirty (30) days only ("Evaluation Period"). The Evaluation Period commences when you first install or use The Software, and expires exactly thirty (30) days later.
+
+You may not:
+
+ Use The Software after the Evaluation Period has expired without payment of the registration fee to Wattle Software.
+
+Use of The Software after the Evaluation Period has expired requires payment of a registration fee of $AUD 139 to Wattle Software. For more information about payment methods, please see ORDER.TXT, included with The Software.
+
+Use of The Software after the Evaluation Period has expired is in violation of this EULA, and Australian and international copyright laws.
+
+2.2. REGISTERED LICENSE
+
+You may:
+
+ Subject to the terms of this EULA, use one copy of The Software on one computer. The primary user of the computer on which The Software is installed may make a second copy for his or her exclusive use on a portable or home computer.
+
+ You may also store or install a copy of The Software on a storage device, such as a network server, used only to install or run The Software on other computers over an internal network; however, you must acquire and dedicate a separate license for each separate computer on which The Software is installed or run from the storage device. A license for The Software may not be shared or used concurrently on different computers.
+
+You may not:
+
+ Disclose to third parties, or publish your registration details via electronic or other means.
+
+3. RESTRICTIONS
+
+You may not reverse engineer, decompile, or disassemble The Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+
+You may not rent, lease, or lend The Software except as described in Section 7 below.
+
+4. TRANSFER OF RIGHTS
+
+You may permanently transfer all of your rights under this EULA, provided you retain no copies of The Software, you transfer all of The Software (including all component parts, documentation upgrades, and this EULA), and the recipient agrees to the terms of this EULA. If The Software is an upgrade, any transfer must include all prior versions of The Software.
+
+5. TERMINATION
+
+Without prejudice to any other rights, Wattle Software may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of The Software.
+
+6. COPYRIGHT
+
+All title, including but not limited to copyrights, in and to The Software and any copies thereof are owned by Wattle Software. All title and intellectual property rights in and to the content which may be accessed through use of The Software is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by Wattle Software.
+
+7. LIMITED WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WATTLE SOFTWARE DISCLAIMS ALL WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, WITH REGARD TO THE SOFTWARE, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES.
+WATTLE SOFTWARE DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE.
+
+8. LIMITATIONS OF REMEDIES AND LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL WATTLE SOFTWARE BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL OR OTHER DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF WATTLE SOFTWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, WATTLE SOFTWARE'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS EULA SHALL BE LIMITED TO THE GREATER OF THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE PRODUCT OR $AUD 5.00. BECAUSE SOME STATES AND JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+9. DISTRIBUTION
+
+You are hereby licensed to make as many copies of the installation package for The Software as you wish; give exact copies of the original installation package for The Software to anyone; and distribute the original installation package for The Software in its unmodified form via electronic or other means. The Software must be clearly identified as an evaluation version where described.
+
+You are specifically prohibited from charging, or requesting donations, for any such copies, however made; and from distributing The Software including documentation with other products (commercial or otherwise) without prior written permission from Wattle Software. You are also prohibited from distributing components of The Software other than the complete original installation package.
+
+10. JURISDICTION
+
+This EULA shall be governed by the laws of New South Wales, Australia.</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.2</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>Y</ASP_Member>
+		<ASP_Member_Number>04154</ASP_Member_Number>
+	</ASP>
+</XML_DIZ_INFO>

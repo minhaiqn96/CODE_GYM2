@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../jquery/jquery-3.4.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../mycss/mystyle.css">
+
+
+    <script>
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                $("#div1").animate({ left: '250px' });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#button2").click(function () {
+                $("#div2").animate({
+                    left: '250px',
+                    opacity: '0.5',
+                    height: '150px',
+                    width: '150px'
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#button3").click(function () {
+                $("#div3").animate({
+                    left: '250px',
+                    height: '+=150px',
+                    width: '+=150px'
+                });
+            });
+        });
+
+    </script>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get gadsarouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="../image/jquery-logo.png" alt="Logo"
+                            style="width:50px; height: 40px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">Devices <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">EN <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div class="left">
+        <h3>jQuery Effects</h3>
+        <a href="hide_show.html">hide() and show()</a><br>
+        <a href="fade.html">Fade</a><br>
+        <a href="slide.html">Slide</a><br>
+        <a href="animation.html">Animation</a><br>
+        <a href="stop.html">stop()</a><br>
+        <a href="callback.html">Callback()</a><br>
+        <a href="chaining.html">Chaining</a><br>
+    </div>
+    <div class="content">
+
+
+
+        <p style="font-size: 1.5em">
+            The jQuery animate() method is used to create custom animations.
+        </p>
+        <h3>Syntax:</h3>
+        <p>
+            $(selector).animate({params},speed,callback);
+        </p>
+        <p>
+            The required params parameter defines the CSS properties to be animated.
+
+            The optional speed parameter specifies the duration of the effect. It can take the following values: "slow",
+            "fast", or milliseconds.
+
+            The optional callback parameter is a function to be executed after the animation completes.
+        </p>
+        <p>The following example demonstrates a simple use of the animate() method; it moves a <div> element to the
+                right, until it has reached a left property of 250px:</p>
+        <h3>Example:</h3>
+        <pre>
+            script>
+                $(document).ready(function () {
+                    $("button").click(function(){
+                        $("div").animate({left: '250px'});
+                      }); 
+                });
+            /script>
+        </pre>
+
+
+        <button id="button1">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position,
+            remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="div1" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <h3>jQuery animate() - Manipulate Multiple Properties</h3>
+            <p>Notice that multiple properties can be animated at the same time:</p>
+        </div>
+        <h3>Syntax:</h3>
+        <p>
+            $(selector).slideToggle(speed,callback);
+        </p>
+        <pre>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("div").animate({
+                      left: '250px',
+                      opacity: '0.5',
+                      height: '150px',
+                      width: '150px'
+                    });
+                  }); 
+              });
+        </pre>
+        <button id="button2">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position,
+            remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="div2" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <h3>jQuery animate() - Using Relative Values</h3>
+            <p>It is also possible to define relative values (the value is then relative to the element's current
+                value). This is done by putting += or -= in front of the value:</p>
+        </div>
+        <pre>
+                $(document).ready(function(){
+                    $("button").click(function(){
+                        $("div").animate({
+                          left: '250px',
+                          height: '+=150px',
+                          width: '+=150px'
+                        });
+                      }); 
+                  });
+            </pre>
+        <button id="button3">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position,
+            remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="div3" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>See more at W3school</p>   
+        <div class="footer">
+            @Trung.doan-codegymDaNang
+        </div>
+
+</body>
+
+</html>

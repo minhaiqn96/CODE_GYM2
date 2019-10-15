@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- Declare NameSpace in root-->
+<doc
+   xmlns:h="http://localhost/html"
+   xmlns:f="http://localhost/furniture"> 
+   <!-- Use namespace -->
+  <!-- HTML table information -->
+  <h:table>
+    <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+    </h:tr>
+  </h:table>
+  <!-- information about a table (furniture) -->
+  <f:table>
+    <f:name>African Coffee Table</f:name>
+    <f:width>80</f:width>
+    <f:length>120</f:length>
+  </f:table> 
+  
+</doc>

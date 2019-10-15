@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "images/products/2.png",
+    "name": "NOKIA 1100",
+    "price": "12"
+  },
+  {
+    "id": 2,
+    "imgSrc": "images/products/2.png",
+    "name": "Nokia",
+    "price": "13"
+  },
+  {
+    "id": 3,
+    "imgSrc": "images/products/3.png",
+    "name": "products 3",
+    "price": "15"
+  },
+  {
+    "id": 4,
+    "imgSrc": "images/products/2.png",
+    "name": "products 4",
+    "price": "20"
+  },
+  {
+    "id": 5,
+    "imgSrc": "images/products/2.png",
+    "name": "Nokia 3",
+    "price": "21"
+  },
+  {
+    "id": 6,
+    "imgSrc": "images/products/3.png",
+    "name": "products 6",
+    "price": "22"
+  },
+  {
+    "id": 7,
+    "imgSrc": "images/products/ipad.jpg",
+    "name": "Ipad Pro 12.7 inches",
+    "price": "900"
+  }
+]

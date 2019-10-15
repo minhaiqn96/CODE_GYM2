@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function main() {
+            let number1 = parseInt(prompt("Enter the number 1: "));
+            let number2 = parseInt(prompt("Enter the number 2: "));
+            document.write("Position old: number first: " + number1 + " number second: " + number2 + "<br>");
+            let result = convert(number1, number2);
+            document.write("Position new: number first: " + result[0] + " number second: " + result[1]);
+        }
+        function convert(number1, number2) {
+            let res;
+            res = number2;
+            number2 = number1;
+            number1 = res;
+            return [number1, number2];
+        }
+
+        main();
+    </script>
+</body>
+
+</html>

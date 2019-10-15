@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<p id="demo"></p>
+<body>
+    <script>
+        function Apple(type) {
+            this.type = type;
+            this.color = "red";
+            this.getInfo = function () {
+                return this.type + " " + this.color + " apple";
+            }
+        };
+        let apple = new Apple("abc");
+        alert(apple.getInfo());
+        // let d = new Date();
+        document.getElementById("demo").innerHTML = new Date();
+    </script>
+</body>
+
+</html>

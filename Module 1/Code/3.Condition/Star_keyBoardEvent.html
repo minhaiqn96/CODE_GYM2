@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <img src="https://www.jax.org/~/media/JaxWeb/images/jax-mice-and-services/mice/datasheets/004424" id="mouse"
+        style="position: absolute; left: 0; top: 0;width: 100px;height: 100px">
+</head>
+
+<body onload="docReady()">
+    <script>
+        let mouseObj = document.getElementById("mouse");
+        function upPress() {
+            mouseObj.style.top = parseInt(mouseObj.style.top) - 20 + "px";
+        }
+        function downPress() {
+            mouseObj.style.top = parseInt(mouseObj.style.top) + 20 + "px";
+        }
+        function rightPress() {
+            mouseObj.style.left = parseInt(mouseObj.style.left) + 20 + "px";
+        }
+        function leftPress() {
+            mouseObj.style.left = parseInt(mouseObj.style.left) - 20 + "px";
+        }
+
+        function moveSelection(obj) {
+            switch (obj.keyCode) {
+                case 37:
+                    leftPress();
+                    break;
+                case 39:
+                    rightPress();
+                    break;
+                case 38:
+                    upPress();
+                    break;
+                case 40:
+                    downPress();
+                    break;
+            }
+        }
+        
+        function docReady() {
+            window.addEventListener("keydown", moveSelection);
+        }
+
+    </script>
+</body>
+
+</html>

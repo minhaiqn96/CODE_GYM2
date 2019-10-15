@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Danh Sach Nhan Vien</h1>
+<p></p>
+<a th:href="@{/employee/create}">Tao Nhan Vien Moi</a>
+
+<!--<div>-->
+<!--    <a th:href="@{'/employee/list'(page=${employees.number - 1})}" th:if="${employees.hasPrevious()}">Previous</a>-->
+<!--    <span th:text="${employees.number + 1}"></span>/<span th:text="${employees.totalPages}"></span>-->
+<!--    <a th:href="@{'/employee/list'(page=${employees.number + 1})}" th:if="${employees.hasNext()}">Next</a>-->
+<!--</div>-->
+
+<h3>Tim Kiem Theo Ten:</h3>
+<form><input type="text" name="s">
+    <input type="submit" value="Tim Kiem">
+</form>
+<p></p>
+<table border="1">
+    <tr>
+        <td>Ma Nhan Vien</td>
+        <td>Nhom Nhan Vien</td>
+        <td>Ho Ten</td>
+        <td>Gioi tinh</td>
+        <td>So dien thoai</td>
+        <td>So CMND</td>
+        <td>Email</td>
+        <td>Dia chi</td>
+        <td>Sua</td>
+        <td>Xoa</td>
+    </tr>
+    <th:block th:each="emp : ${employees}">
+        <tr>
+            <td th:text="${emp.ma_nv}"></td>
+            <td th:text="${emp.nhom_nv}"></td>
+            <td th:text="${emp.name}"></td>
+            <td th:text="${emp.gioi_tinh}"></td>
+            <td th:text="${emp.phoneNumber}"></td>
+            <td th:text="${emp.cmnd}"></td>
+            <td th:text="${emp.email}"></td>
+            <td th:text="${emp.address}"></td>
+            <td><a th:href="@{/employee/edit/__${emp.id}__}">Sua</a></td>
+            <td><a th:href="@{/employee/delete/__${emp.id}__}">Xoa</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

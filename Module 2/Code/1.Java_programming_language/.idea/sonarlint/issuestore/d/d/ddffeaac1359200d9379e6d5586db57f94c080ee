@@ -1,0 +1,85 @@
+
+1squid:S1220""Move this file to a named package.
+T
+squid:S106z"9Replace this use of System.out or System.err by a logger.(”œò¼ûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÊ´¬øÿÿÿÿ
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(Ë—Ì›
+O
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(ÒÙª@
+P"squid:SwitchLastCaseIsDefaultCheckx""Add a default case to this switch.(ŸˆÈû
+O
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(©€ï
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(×©¶
+T
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(öÉ¶ÿÿÿÿÿ
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(»ê˜µøÿÿÿÿ
+O
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¼íÏï
+O
+squid:S106]"9Replace this use of System.out or System.err by a logger.(—¾¨…
+O
+squid:S106."9Replace this use of System.out or System.err by a logger.(äÅ²
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(æçéöùÿÿÿÿ
+U
+squid:S106€"9Replace this use of System.out or System.err by a logger.(îõ“£úÿÿÿÿ
+nsquid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Óàøÿÿÿÿ
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Õªİ
+O
+squid:S106`"9Replace this use of System.out or System.err by a logger.(÷÷¹é
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(€·æ™ùÿÿÿÿ
+T
+squid:S106}"9Replace this use of System.out or System.err by a logger.(ñÛ˜şÿÿÿÿ
+U
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(³Ú‹–şÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶­»ƒÿÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck)""Add a default case to this switch.(²ô¸‡
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬›şR
+O
+squid:S106+"9Replace this use of System.out or System.err by a logger.( ’åÛ
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Å§üõ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë—âÁúÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheckI""Add a default case to this switch.(‰Œ®Å
+T
+squid:S106""9Replace this use of System.out or System.err by a logger.(¾½õãøÿÿÿÿ
+T
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¦Œİáüÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì«÷‹úÿÿÿÿ
+U
+squid:S106 "9Replace this use of System.out or System.err by a logger.(í¡ªÏÿÿÿÿÿ
+U
+squid:S106’"9Replace this use of System.out or System.err by a logger.(Æ±Ô½ûÿÿÿÿ
+T
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(İ Òúúÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(„ƒÕ±úÿÿÿÿ
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(Ï½Ç
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(°·ÿ‡ıÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆÊÁùşÿÿÿÿ
+?squid:S2189Ÿ""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+U
+squid:S106†"9Replace this use of System.out or System.err by a logger.(ëƒ›¶ÿÿÿÿÿ
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(—‘ï ÿÿÿÿÿ
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(åü°
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(½ÌÏÚüÿÿÿÿ
+T
+squid:S106W"9Replace this use of System.out or System.err by a logger.(”úóıÿÿÿÿ
+O
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ºÓò

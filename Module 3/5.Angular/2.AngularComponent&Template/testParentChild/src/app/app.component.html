@@ -1,0 +1,10 @@
+<div class="app-component">
+  <input #name placeholder="Enter name here" value="">
+  <button value="Add" (click)="addName(name.value)">Add</button>
+
+  <p>Total students: {{names.length}}</p>
+  <p *ngIf="removedStudentName">We have just removed the student: {{removedStudentName}}</p>
+</div>
+<div class="list-name-component">
+  <app-list-name [list-name]="names" (removeLastStudentEventEmitter)="removeLastStudent($event)"></app-list-name>
+</div>

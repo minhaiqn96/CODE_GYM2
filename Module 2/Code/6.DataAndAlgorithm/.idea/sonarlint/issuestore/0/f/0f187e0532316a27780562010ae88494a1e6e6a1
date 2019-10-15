@@ -1,0 +1,12 @@
+
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(Šù`
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹–ÓÃøÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËªÊÈÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜ëùüÿÿÿÿ
+osquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı­‚
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ™Æúÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÅÕ²„

@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ch08_25.css"?>
+<document>
+  <headers>
+    <header>First Name</header>
+    <header>Last Name</header>
+    <header>Loan Amount</header>
+  </headers>
+  <mortgages>
+    <mortgage>
+      <firstName>Fred</firstName>
+      <lastName>Turner</lastName>
+      <amount>$100,000</amount>
+    </mortgage>
+    <mortgage>
+      <firstName>Bill</firstName>
+      <lastName>Saunders</lastName>
+      <amount>$120,000</amount>
+    </mortgage>
+    <mortgage>
+      <firstName>Ed</firstName>
+      <lastName>Johnson</lastName>
+      <amount>$130,000</amount>
+    </mortgage>
+    <mortgage>
+      <firstName>Sam</firstName>
+      <lastName>Watson</lastName>
+      <amount>$140,000</amount>
+    </mortgage>
+    <mortgage>
+      <firstName>James</firstName>
+      <lastName>White</lastName>
+      <amount>$150,000</amount>
+    </mortgage>
+  </mortgages>
+</document>
+

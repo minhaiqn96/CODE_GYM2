@@ -1,0 +1,20 @@
+
+9squid:S2189""Add an end condition to this loop.(´ÿÕ™
+hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(­åÚòøÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(Æ‘ş¯
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­åÚòøÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó™äêúÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì“›¨
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(åâé…
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Êòˆï
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(°¶¸¬
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ¯¹‡ûÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(è¿Ü
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(‰Œâ™úÿÿÿÿ

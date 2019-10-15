@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Employees.xml
+    Author     : vincent
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE SalaryDetail SYSTEM "Employee_dtd.dtd">
+<SalaryDetail>
+  <Employee EmployeeNumber="E01">
+    <EmployeeName> Anna John </EmployeeName>
+    <Grade> AMM1 </Grade>
+    <AccountNumber> 3456995410 </AccountNumber>
+    <Designation> Assistant Manager </Designation>
+    <PANNumber> ABF00517D </PANNumber>
+    <PFNumber> 66771122 </PFNumber>
+    <Earning>
+      <Basic> 12100 </Basic>
+      <HRA> 4500 </HRA>
+      <CityAllowance> 5000 </CityAllowance>
+      <ConveyanceAllowance> 4000 </ConveyanceAllowance>
+    </Earning>
+    <Deduction>
+      <IncomeTax> 1500 </IncomeTax>
+      <PF> 3500 </PF>
+      <ProfessionalTax> 1000 </ProfessionalTax>
+    </Deduction>
+  </Employee>
+</SalaryDetail>
+
+
+
+

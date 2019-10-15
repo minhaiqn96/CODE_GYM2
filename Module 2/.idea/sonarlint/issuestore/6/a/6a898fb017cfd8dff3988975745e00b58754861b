@@ -1,0 +1,23 @@
+
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(«¦®¿ıÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¨ÕÉ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(Á“ §
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì“›¨
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ™Æúÿÿÿÿ
+vsquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "celsius".(êÇ¹Ë
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ş†ÜÄ
+ysquid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "fahrenheit".(ÎñÆµ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù÷Ç÷
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(à‹¹€
+T
+squid:S106!"9Replace this use of System.out or System.err by a logger.(úÇÌÆüÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(•éõ«
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(‚ªòÈ

@@ -1,0 +1,26 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(–ù’þÿÿÿÿ8í­¸‰Ø-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(¶÷Ôùÿÿÿÿ8í­¸‰Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å©åí8í­¸‰Ø-
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ÆÔâ€üÿÿÿÿ8í­¸‰Ø-
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ë¨ïÑ8í­¸‰Ø-
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(•ÀÒŽüÿÿÿÿ8æòô‰Ø-
+usquid:S00117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ·§íýÿÿÿÿ8í­¸‰Ø-
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(¸½—ýÿÿÿÿ8í­¸‰Ø-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ˆ—ŒÀ8í­¸‰Ø-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜ûŽúÿÿÿÿÿ8í­¸‰Ø-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùüøüÿÿÿÿ8í­¸‰Ø-
+[
+squid:S106="9Replace this use of System.out or System.err by a logger.(óÅÔøÿÿÿÿ8í­¸‰Ø-
+Ysquid:S26966"6Make the enclosing method "static" or remove this set.(•¿Ž”úÿÿÿÿ8ö‡ì‰Ø-
+osquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦­Çn8í­¸‰Ø-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤ü„ã8¿Š©Ø-

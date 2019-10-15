@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : HotelAudit.xml
+    Author     : vincent
+    Description:
+       It gives the result of a hotel audit.
+-->
+
+<Hotel_Audit>
+<HotelName>
+    Precious view
+</HotelName>    
+<HotelAddress>
+    #1, Where Street, Wherehow City, Wherewhy, 98045.
+</HotelAddress>
+<HotelPhone>
+    (650) 1243-0000
+</HotelPhone>
+<HotelRating>
+    ***1/2
+</HotelRating>
+<Summary>
+    A seperate chimney can be constructed to avoid pollution.
+</Summary>
+</Hotel_Audit>
+

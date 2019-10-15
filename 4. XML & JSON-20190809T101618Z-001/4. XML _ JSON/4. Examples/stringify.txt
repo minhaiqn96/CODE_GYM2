@@ -1,0 +1,26 @@
+﻿Convert to JSON
+- eval(): là hàm trong javascript được dùng để chuyển đổi một biến string sang dạng JSON
+- JSON.parse(): Cú pháp JSON.parse(text [, reviver])
+Là hàm trong javascript được dùng để chuyển đổi một object(đối tượng) sang dạng JSON
+VD:
+var jsontext = '{"Ho": "Hoang", "Ten": "Thanh", "Phone": ["0913690366", "016821034**"]}'
+var contact = JSON.parse(jsontext);
+document.write(contact.Ten  + ", " + contact.Ho)
+
+//output: Thanh, Hoang
+
+- JSON.stringify(): Cú pháp JSON.stringify(value [, replacer] [, space])
+Là hàm trong javascript được dùng để chuyển đổi một object và một array
+
+var contact = new Object();
+contact.firstname = "Jesper";
+contact.surname = "Aaberg";
+contact.phone = ["555-0100", "555-0120"];
+
+var memberfilter = new Array();
+memberfilter[0] = "surname";
+memberfilter[1] = "phone";
+var jsonText = JSON.stringify(contact, memberfilter, "\t");
+document.write(jsonText);
+// Output:  
+// { "surname": "Aaberg", "phone": [ "555-0100", "555-0120" ] }

@@ -1,0 +1,25 @@
+<form [formGroup]="bookForm" (submit)="createForm()">
+    <input formControlName="id" type="hidden">
+    <div class="form-group">
+        <label for="title">Titile</label>
+        <input formControlName="title" type="text" class="form-control" id="title">
+        <div *ngIf="title.invalid && title.touched" class="alert alert-danger">
+            <p *ngIf="title.errors?.required"> Title is required</p>
+            <p *ngIf="title.errors?.minlength">
+                More then 6 characters, plz...
+            </p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="author">Description</label>
+        <input formControlName="author" type="text" class="form-control" id="author">
+        <div *ngIf="author.invalid && author.touched" class="alert alert-danger">
+            <p *ngIf="author.errors?.required"> Description is required</p>
+            <!-- <p *ngIf="description.errors?.maxlength">
+            Maximun less than 10 characters, plz...
+        </p> -->
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create New Book</button>
+</form>

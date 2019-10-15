@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "images/1.jpg",
+    "name": "Love Me Too (Single)",
+    "artist": "Đông Nhi",
+    "videoSrc": "rBHRlXEbnw4"
+  },
+  {
+    "id": 2,
+    "imgSrc": "images/2.jpg",
+    "name": "Nơi này có Anh",
+    "artist": "Sơn Tùng MT",
+    "videoSrc": "rBHRlXEbnw4"
+  },
+  {
+    "id": 3,
+    "imgSrc": "images/3.jpg",
+    "name": "Tâm tư giữ riêng em",
+    "artist": "Liz (LIME)",
+    "videoSrc": "rBHRlXEbnw4"
+  },
+  {
+    "id": 4,
+    "imgSrc": "images/4.jpg",
+    "name": "Để cho em khóc",
+    "artist": "Vy Oanh",
+    "videoSrc": "rBHRlXEbnw4"
+  }
+]

@@ -1,0 +1,61 @@
+<?xml version = "1.0"?>
+<xs:schema xmlnx:xs = "www.w3.org/2001/XMLSchema">
+     
+    <!-- The goc thu vien gom cac phan tu QLMuon-->
+    <xs:element name = "ThuVien">
+        <xs:complexType>
+            <xs:element name = "QLMuon" type = "KQLMuon"/>
+        </xs:complexType>
+    </xs:element>
+     
+    <!-- Thong tin gom Thong tin sinh vien va thong tin muon-->
+    <xs:complexType name = "KQLMuon" minOccurs = "0"> 
+        <xs:element name = "SinhVien" type = "KSinhVien"/>
+        <xs:element name = "Muon" type = "KMuon"/>
+    </xs:complexType>
+     
+    <!-- Dinh nghia kieu sinh vien -->
+    <xs:complexType name = "KSinhVien">
+        <xs:sequense>
+            <xs:element name = "MaSV" type = "KMa"/>
+            <xs:element name = "Hoten" type = "xs:string"/>
+             
+            <!-- dinh nghia kieu lop-->
+            <xs:element name = "Lop">
+                <xs:simpleType>
+                    <xs:restriction base = "xs:string"/>
+                    <xs:pattern value = "CNPM1|CNPM2|CNPM3"/>
+                </xs:simpleType>
+            </xs:element>
+            <!---ket thuc Lop-->
+             
+            <xs:element name = "NamSinh" type = "xs:date">
+        </xs:sequense>
+    </xs:complexType> 
+     
+    <!-- Dinh nghia kieu muon-->
+    <xs:complexType name = "KMuon" minOccurs = "0">
+        <xs:sequense>
+            <xs:element name = "Sach" type = "KSach"/>
+            <xs:element name = "NgayMuon" type = "xs:date"/>
+            <xs:element name = "NgayTra" type = "xs:date"/>
+        </xs:sequense>
+    </xs:complexType>
+     
+    <!-- Dinh nghia kieu Sach-->
+    <xs:complexType name = "KSach">
+        <xs:sequense>
+            <xs:element name = "MaSach" type = "KMa"/>
+            <xs:element name = "TenSach" type = "xs:string"/>
+            <xs:element name = "NXB" type = "xs:string"/>
+            <xs:element name = "NamXB" type = "xs:Year"/>
+        </xs:sequense>
+    </xs:complexType>
+     
+    <!-- Dinh nghia Ma sach va Ma sinh vien-->
+    <xs:simplexType name = "KMa">
+        <xs:restriction base = "xs:string"/>
+        <xs:pattern value = "[a-zA-Z]{2}[0-9]{2}">
+    </xs:simplexType>
+     
+</xs:schema>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let Battery = function (energy) {
+            this.energy = energy;
+
+            this.setEnergy = function (energy) {
+                this.energy = energy;
+            }
+            this.getEnergy = function () {
+                return this.energy;
+            }
+            this.decreaseEnergy = function () {
+                if (this.energy > 0) {
+                    return this.energy--;
+                }
+            }
+        };
+
+        let FlashLamp = function (status, battery) {
+            this.status = status;
+            this.battery = battery;
+
+            this.setBattery = function () {
+                // this.battery = battery;
+            }
+
+            this.getBattergyInfo = function () {
+                return this.battery.getEnergy();
+            }
+
+            this.light = function () {
+                if ((this.status) == true) {
+                    alert("Lighting");
+                }
+                else {
+                    alert("Not lighting");
+                }
+            }
+
+            this.turnOn = function () {
+                this.status = true;
+                this.battery.decreaseEnergy();
+            }
+
+            this.turnOff = function () {
+                this.status = false;
+                this.battery.decreaseEnergy();
+            }
+        };
+
+        let batteryObj = new Battery(100);
+        // batteryObj.setEnergy(100);//tro toi ham Battery thiet lap gtri ban dau cho pin
+        let flashLampObj = new FlashLamp(false, batteryObj);
+
+        flashLampObj.light();
+        console.log("Battery Infomation " + flashLampObj.getBattergyInfo());
+        flashLampObj.turnOn();
+        flashLampObj.light();
+        console.log("Battery Infomation " + flashLampObj.getBattergyInfo());
+        flashLampObj.turnOff();
+        flashLampObj.light();
+        console.log("Battery Infomation " + flashLampObj.getBattergyInfo());
+    </script>
+</body>
+
+</html>

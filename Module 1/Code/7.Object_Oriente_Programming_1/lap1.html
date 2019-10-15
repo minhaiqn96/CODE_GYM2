@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let myDate = function (day, month, year) {
+        function Date(day, month, year) {
+            this.day = day;
+            this.month = month;
+            this.year = year;
+
+            this.getDay = getDay;
+            function getDay() {
+                return this.day;
+            }
+            this.getMonth = function () {
+                return this.month;
+            }
+            this.getYear = function () {
+                return this.year;
+            }
+
+            this.setDay = function (day) {
+                this.day = day;
+            }
+            this.setMonth = function (month) {
+                this.month = month;
+            }
+            this.setYear = function (year) {
+                this.year = year;
+            }
+            this.setDate = function (day, month, year) {
+                this.day = day;
+                this.month = month;
+                this.year = year;
+            }
+            this.toString = function () {
+                document.write(this.day + "/" + this.month + "/" + this.year);
+            }
+        };
+
+        let date = new Date(07, 06, 1996);
+        function get() {
+            // let day = date.getDay();
+            // let month = date.getMonth();
+            // let year = date.getYear();
+            alert(date.getDay() + "  " + date.getMonth() + "  " + date.getYear());
+        }
+        function set() {
+            date.setDay(22);
+            date.setMonth(5);
+            date.setYear(2019);
+            alert(date.getDay() + "  " + date.getMonth() + "  " + date.getYear());
+        }
+        function convertString() {
+            // date.setDate(30, 5, 2000);
+            date.toString();
+        }
+        get();
+        set();
+        convertString();
+    </script>
+</body>
+
+</html>

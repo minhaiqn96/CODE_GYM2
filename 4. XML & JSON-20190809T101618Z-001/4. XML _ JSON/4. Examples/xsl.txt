@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xsl:stylesheet
+	version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns="http://www.w3.org/TR/REC-html40">
+
+
+   <xsl:template match="/">
+      <HTML>
+         <HEAD>
+            <TITLE>Book Lovers' Catalog</TITLE>
+         </HEAD>
+         <BODY>
+            <Center>
+               <H1>Book Lovers' Catalog</H1>
+            </Center>
+            <TABLE Border="1" Cellpadding="5">
+               <TR>
+                  <TD align="center" bgcolor="silver">
+                     <b>ID</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Author</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Title</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Genre</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Price</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Published Date</b>
+                  </TD>
+                  <TD align="center" bgcolor="silver">
+                     <b>Description</b>
+                  </TD>
+               </TR>
+               <xsl:for-each select="//book">
+                  <TR>
+                     <TD>
+                        <xsl:value-of select="@id"/>
+                     </TD>
+                     <TD>
+                        <xsl:value-of select="author"/>
+                     </TD>
+                     <TD>
+                        <xsl:choose>
+                           <xsl:when test="self::*[genre = 'Romance']">
+                              <xsl:attribute name="style">background-color: pink</xsl:attribute>
+                           </xsl:when>
+                           <xsl:when test="self::*[genre = 'Fantasy']">
+                              <xsl:attribute name="style">background-color: lightblue</xsl:attribute>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:attribute name="style">background-color: lightgreen</xsl:attribute>
+                           </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:value-of select="title"/>
+                     </TD>
+                     <TD>
+                        <xsl:value-of select="genre"/>
+                     </TD>
+                     <TD>
+                        <xsl:if test="price > 6">
+                           <xsl:attribute name="bgcolor">cyan</xsl:attribute>
+                        </xsl:if>
+                        <xsl:value-of select="price"/>
+                     </TD>
+                     <TD>
+                        <xsl:value-of select="publish_date"/>
+                     </TD>
+                     <TD>
+                        <xsl:value-of select="description"/>
+                     </TD>
+                  </TR>
+               </xsl:for-each>
+            </TABLE>
+         </BODY>
+      </HTML>
+   </xsl:template>
+
+
+
+</xsl:stylesheet>

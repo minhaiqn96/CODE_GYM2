@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isFirstUpperCase(str){
+            regexp = /^[A-Z]/;// "^"so khớp với bất kỳ ký tự nào được bắt đầu mà có trong khoảng A-Z
+            if(regexp.test(str)){//check all cac ky tu duoc define trong "regexp" co trong chuoi "str" khong?
+                console.log("String's first character is UpperCase ");
+            }
+            else {
+                console.log("String's first character isn't UpperCase ");
+            }
+        }
+
+        isFirstUpperCase("Hai");
+        console.log("***************************");
+        isFirstUpperCase(" Hai");
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let res;
+        function linearSeach(arr, value) {
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] == value) {
+                    res = i;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function binarySeach(arr, value) {
+            let left = 0;
+            let right = arr.length - 1;
+            while (left <= right) {
+                let mid = Math.floor((left + right) / 2);
+                if (value == arr[mid]) {
+                    return mid;
+                }
+                else if (value < arr[mid]) {
+                    right = mid - 1;
+                }
+                else if (value > arr[mid]) {
+                    left = mid + 1;
+                }
+            }
+            return -1;
+        }
+
+        let array = [1, 2, 3, 4, 5, 6];
+        let valueNeedFind = 1;
+
+        let findLinear = linearSeach(array, valueNeedFind);
+        if (findLinear) {
+            document.write("Linear: Number " + valueNeedFind + " appear at position " + res + " in array " + array + "<br>");
+        }
+        else document.write("Linear: No find " + valueNeedFind + " appear in array " + array + "<br>");
+
+        let findBinary = binarySeach(array, valueNeedFind);
+        if (findBinary != (-1)) {
+            document.write("Binary: Number " + valueNeedFind + " appear at position " + findBinary + " in array " + array);
+        }
+        else document.write("Binary: No find " + valueNeedFind + " appear in array " + array + "<br>");
+
+    </script>
+</body>
+
+</html>

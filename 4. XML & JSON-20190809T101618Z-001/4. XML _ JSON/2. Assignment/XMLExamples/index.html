@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery.parseXML demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="book-row" class="row">
+
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function(){
+        $.ajax({
+            type: "GET" ,
+            url: "data.xml" ,
+            dataType: "xml" ,
+            success: function(xml) {
+                $(xml).find('book').each(function(){
+                    var title = $(this).find('title').text();
+                    var price = $(this).find('price').text();
+                    var author = $(this).find('author').text();
+                    var s = "<div class=''>";
+                    s += "<h2>" + title + "</h2>";
+                    s += "<div>" + price + "</div>";
+                    s += "<div>" + author + "</div>";
+                    s += "</div>";
+                    $("#book-row").append("<div class='col-md-4'>" + s + "</div>");
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

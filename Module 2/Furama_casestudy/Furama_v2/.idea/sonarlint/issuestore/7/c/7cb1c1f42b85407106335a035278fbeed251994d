@@ -1,0 +1,34 @@
+
+msquid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÔƒˆ8ñ¸’ƒØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ãˆä8âµÌØ-
+xsquid:S00116"TRename this field "pool_area" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¾÷‹üÿÿÿÿ8­í½Ø-
+psquid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯™¢…8Ç’àØ-
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(†í³½8Ä‡”ƒØ-
+usquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·…´øÿÿÿÿ8Ç’àØ-
+msquid:S001005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Šó’8ñ¸’ƒØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+rsquid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡òá•øÿÿÿÿ8ñ¸’ƒØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ãˆä8âµÌØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÔƒˆ8Ç’àØ-
+isquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(Â‹Ä¨8Ä‡”ƒØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+msquid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯™¢…8ñ¸’ƒØ-
+`squid:S00107"AConstructor has 9 parameters, which is greater than 7 authorized.(ŠÃ¿“8Â¦ÍØ-
+psquid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥™µ8Ç’àØ-
+rsquid:S001009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À·…´øÿÿÿÿ8ñ¸’ƒØ-
+vsquid:S00116	"WRename this field "number_floor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øœó÷8‡Ç¿Ø-
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¾á‡øÿÿÿÿ8ñ¸’ƒØ-
+ysquid:S00116"ZRename this field "other_amenities" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÓ¬ÿ8—æ»Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ãˆä8âµÌØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ãˆä8âµÌØ-
+rsquid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÜ‹ûÿÿÿÿ8ñ¸’ƒØ-
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ÜïïÒşÿÿÿÿ8á¶–‚Ø-
+msquid:S001001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥™µ8ñ¸’ƒØ-
+|squid:S00116"XRename this field "standard_room" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ôÓüÿÿÿÿ8Üù»Ø-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÃ¿“8Â¦ÍØ-

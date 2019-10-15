@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let enter = prompt("Enter the string: ");
+        let str = enter.toString();
+        let rs = [];
+        let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        let lower = "abcdefghijklmnopqrstuvwxyz";
+        for (let i = 0; i < str.length; i++) {
+            if (upper.indexOf(str[i]) != -1) rs.push(str[i].toLowerCase());
+            else if (lower.indexOf(str[i]) != -1) rs.push(str[i].toUpperCase());
+            else rs.push(str[i]);
+        }
+        document.write(rs.join(""));
+    </script>
+</body>
+
+</html>

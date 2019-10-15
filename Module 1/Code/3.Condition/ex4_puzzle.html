@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg" anh ="anh1" height="50" id="a1" onclick="chuyen()">
+</br>
+<img src="http://www.clker.com/cliparts/5/4/a/2/1335294312836346393Single%20Heart.svg.med.png" anh = "anh2" height="50" name ="anh2" width="50" id="a2" onclick="chuyen1()">
+<p id ="d"></p>
+<script>
+    function chuyen(){
+        let a = document.getElementById("a1")
+        if(a.src=="https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg"){
+         a.src = "http://www.clker.com/cliparts/5/4/a/2/1335294312836346393Single%20Heart.svg.med.png"
+         a.anh="anh1"
+        } 
+        else{
+            a.src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg"
+            a.anh ="anh2"
+        }
+
+        if(  document.getElementById("a1").anh == document.getElementById("a2").anh){
+            document.getElementById("d").innerHTML="They are the same"
+        }else{
+            document.getElementById("d").innerHTML ="They aren't the same"
+        }
+    }
+    function chuyen1(){
+        let a = document.getElementById("a2")
+        if(a.src=="http://www.clker.com/cliparts/5/4/a/2/1335294312836346393Single%20Heart.svg.med.png"){
+            a.anh ="anh2"
+         a.src = "https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg"
+        }else{
+            a.src = "http://www.clker.com/cliparts/5/4/a/2/1335294312836346393Single%20Heart.svg.med.png"
+            a.anh = "anh1"
+        }
+        if(  document.getElementById("a1").anh == document.getElementById("a2").anh){
+            document.getElementById("d").innerHTML="They are the same"
+        }else{
+            document.getElementById("d").innerHTML ="They aren't the same"
+        }
+    }
+
+    
+</script>
+
+</body>
+</html>

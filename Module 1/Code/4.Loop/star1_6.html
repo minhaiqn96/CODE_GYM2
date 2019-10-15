@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let count = 0;
+        let sum = 0;
+        let n = 0;
+        while (count <= 30) {
+            if (n % 7 == 0) {
+                document.write(n + " ");
+                sum = sum + n;
+                count = count + 1;
+            }
+            n = n + 1;
+        }
+        document.write("<br>" + "Sum of 30 first numbers % 7 is: " + sum);
+    </script>
+</body>
+
+</html>

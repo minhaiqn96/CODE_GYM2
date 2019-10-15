@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!--<script src="data/products.js"></script>-->
+</head>
+<body>
+    <div id="divProducts"></div>
+<script>
+
+    var products = [];
+
+    $(document).ready(function(){
+        $.ajax({
+            type: "GET" ,
+            url: "data/products.json" ,
+            dataType: "json" ,
+            success: function(data) {
+                products = data;
+                loadProducts();
+            }
+        });
+    });
+
+    function loadProducts() {
+        var html = "";
+        // vòng lặp: duyệt qua từng phần tử trong mảng products
+        $.each (products, function(index, item) {
+            var s = "";
+            s += "<div class='col-md-4'>";
+            s +=    "<div class='thumbnail'>";
+            s +=        "<a href='details.html?id=" + item.id + "'><img class='img-responsive' src='" + item.imgSrc + "'></a>";
+            s +=        "<div class='caption'>";
+            s +=            "<a href='#'><p class='text-center'><strong>" + item.name + "</strong></p></a>";
+            s +=            "<a href='#'><p class='text-center'><small>" + item.price + "</small></p></a>";
+            s +=        "</div>";
+            s +=    "</div>";
+            s += "</div>";
+            html += s;
+        });
+
+        // Bỏ chuỗi html vào bên trong thẻ divProducts
+        $("#divProducts").html(html);
+    }
+</script>
+</body>
+</html>

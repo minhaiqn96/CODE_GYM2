@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 200px;
+            padding-left: 500px
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Create And Manipulation in Array</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="enter" size="30px"></td>
+            <td>
+                <input type="button" id="btAdd" value="   Add   " onclick="add_element_to_array()">
+                <input type="button" id="btDisplay" value="  Display  " onclick="display_array()">
+            </td>
+        </tr>
+    </table>
+    <p id="rs"></p>
+    <script>
+        let x = 0;
+        let array = [];
+        function add_element_to_array() {
+            array[x] = document.getElementById("enter").value;
+            alert("Element: " + array[x] + " Added at position: " + x);
+            x = x + 1;
+            document.getElementById("enter").value = "";
+        }
+        function display_array() {
+            let e = "";
+            for (let i = 0; i < array.length; i++) {
+                e = e + "Element at position: " + i + " = " + array[i] + "<br>";
+            }
+            document.getElementById("rs").innerHTML = e;
+        }
+    </script>
+</body>
+
+</html>

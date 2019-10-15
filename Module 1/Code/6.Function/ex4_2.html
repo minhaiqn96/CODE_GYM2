@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function areaCicle(radius) {
+            let area = 3.14 * radius * radius;
+            return area;
+        }
+        function perimeterCicle(radius) {
+            let perimeter = 2 * 3.14 * radius;
+            return perimeter;
+        }
+        function main() {
+            let radius = parseInt(prompt("Enter the value Radius of circle: "));
+            alert("Area of circle has value radius " + radius + " is: " + areaCicle(radius));
+            alert("Perimeter of circle has value radius " + radius + " is: " + perimeterCicle(radius));
+        }
+        // perimeterAreaCicle(radius);
+        main();
+    </script>
+</body>
+
+</html>

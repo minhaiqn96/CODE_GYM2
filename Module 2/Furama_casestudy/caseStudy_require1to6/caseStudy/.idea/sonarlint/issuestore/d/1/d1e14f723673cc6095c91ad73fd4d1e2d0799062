@@ -1,0 +1,116 @@
+
+Osquid:UselessImportCheck"+Remove this unused import 'model.Customer'.(°¶ãê
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ˜¤áûÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì“›¨
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(à­øÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(çØû
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(«şòå
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(ìøÚÅ
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(š”¹Ï
+T
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ˆ¯¹‡ûÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck(""Add a default case to this switch.(è¿Ü
+g
+squid:S1281"LEnd this switch case with an unconditional break, return or throw statement.(µ»ïşıÿÿÿÿ
+g
+squid:S128/"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿ
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(û’Øıÿÿÿÿ
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ô‘ãš
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ÉË·Œ
+O
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ûŠ««
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+O
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(Æç™Îıÿÿÿÿ
+T
+squid:S106\"9Replace this use of System.out or System.err by a logger.(Áş¢Ÿûÿÿÿÿ
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
+O
+squid:S106`"9Replace this use of System.out or System.err by a logger.(¾ïÏÓ
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(È‚øÜ
+T
+squid:S106b"9Replace this use of System.out or System.err by a logger.(šÏµÜşÿÿÿÿ
+T
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Û °¹ıÿÿÿÿ
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Äö¯úÿÿÿÿ
+O
+squid:S106e"9Replace this use of System.out or System.err by a logger.(òì¬©
+T
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ñ·½çıÿÿÿÿ
+O
+squid:S106g"9Replace this use of System.out or System.err by a logger.(áç¥˜
+T
+squid:S106h"9Replace this use of System.out or System.err by a logger.(ÖÛ‘¸ùÿÿÿÿ
+O
+squid:S106i"9Replace this use of System.out or System.err by a logger.(ñÑ®
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(‘¢€
+O
+squid:S106k"9Replace this use of System.out or System.err by a logger.(´†‚”
+T
+squid:S106l"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
+T
+squid:S106q"9Replace this use of System.out or System.err by a logger.(Öğ‘Ìùÿÿÿÿ
+O
+squid:S106t"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+O
+squid:S106w"9Replace this use of System.out or System.err by a logger.(éê»•
+O
+squid:S106y"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+T
+squid:S106|"9Replace this use of System.out or System.err by a logger.(ÄÌØ¾ùÿÿÿÿ
+O
+squid:S106~"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(—ş™Öøÿÿÿÿ
+P
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106†"9Replace this use of System.out or System.err by a logger.(ÚÙ¡ˆıÿÿÿÿ
+P
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(ÃŸİßøÿÿÿÿ
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹‹—‚
+P
+squid:S106’"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106•"9Replace this use of System.out or System.err by a logger.(ê¯æÃÿÿÿÿÿ
+P
+squid:S106—"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106š"9Replace this use of System.out or System.err by a logger.(ùÆê¤ıÿÿÿÿ
+P
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ë™Æ“ùÿÿÿÿ
+P
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(õîÉŸ
+U
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(–›Ö¬üÿÿÿÿ
+U
+squid:S106©"9Replace this use of System.out or System.err by a logger.(›Á­€üÿÿÿÿ
+P
+squid:S106­"9Replace this use of System.out or System.err by a logger.(ôóğ›
+P
+squid:S106µ"9Replace this use of System.out or System.err by a logger.(Ú¹¬¿
+U
+squid:S106»"9Replace this use of System.out or System.err by a logger.(ıøÌ€øÿÿÿÿ

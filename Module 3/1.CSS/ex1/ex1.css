@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+}
+.search{
+    float: right;
+    width: 30%;
+    margin-right: 50px;
+}
+.img-top{
+    width:10%;
+    height:100px;
+    float:left;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+
+.header-link{   
+    background-color: #14425d;
+    width: 100%;
+    height: 30px;
+}
+.header-link ul li{
+    float: left;
+    width: 20%;
+    list-style-type: none;
+    height: 30px;
+}
+.header-link ul li a {
+    color: #f9f9f9;
+    display:table-cell;
+    vertical-align:middle;
+    /*can giua chu trong o^ cua table */
+    text-decoration: none;
+    height: 30px;
+}
+.header-link ul li a:hover {
+    background-color: rebeccapurple;
+}
+
+
+.left{
+    float: left;
+    background-color: darkgrey;
+    width: 15%;
+    height: 100%;
+}
+
+.left ul li{
+    list-style-type: none;
+    font-style: italic;
+    line-height: 50px;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.left ul li a:hover{
+    background-color: whitesmoke;
+}
+
+.right{
+    float: left;
+    width: 85%;
+}
+.right ul li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    width: 25%;
+}
+
+.row1 li img{
+    width: 200px;
+    height: 200px;
+}
+
+.row2 li img{
+    width: 200px;
+    height: 200px;
+}

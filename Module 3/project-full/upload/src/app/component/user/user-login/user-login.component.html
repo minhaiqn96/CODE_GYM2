@@ -1,0 +1,15 @@
+<div style="float: right; padding-right: 20px">
+    <div *ngIf="!userService.isOkay()">
+        <input [(ngModel)]="username" placeholder="Username">
+        <input [(ngModel)]="password" type="password" placeholder="Password">
+        <button (click)="login()">Login</button>
+        <button (click)="register()">Register</button>
+    </div>
+    <div *ngIf="userService.isOkay()">
+        <span *ngFor="let user of myUser" style="color: #286090">
+            Hello {{user.username}}
+        </span>
+        <button (click)="logout()">Logout</button>
+    </div>
+</div>
+<app-post></app-post>

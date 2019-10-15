@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+    Document   : supermarket.xml
+    Author     : vincent
+    Description:
+    Describes information about the supermarket
+-->
+<Catalog>
+<Item Id="12399" price="190" quantity="200">Bucket</Item>
+<Item Id="41200" price="320" quantity="5">Curtains</Item>
+<Item Id="644" price="21" quantity="200">Pen</Item>
+<Item Id="885" price="7000" quantity="10">Microwave</Item>
+<?JavaApp Print the weekly report?>
+</Catalog>

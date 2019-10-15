@@ -1,0 +1,21 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(è¾çæ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ñ½üÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙÉÖp
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(§ğòüúÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(”Å•“
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(çÆ˜‘
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(²Ó˜Å
+O
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¬ü¯æ
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(ñ›Î‹úÿÿÿÿ
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(áº„üÿÿÿÿ
+Ksquid:EmptyStatementUsageCheck5"Remove this empty statement.(Åñ­õşÿÿÿÿ

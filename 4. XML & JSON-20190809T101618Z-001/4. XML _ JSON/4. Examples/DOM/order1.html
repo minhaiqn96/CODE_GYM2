@@ -1,0 +1,34 @@
+
+<html >
+<head>
+	<title>Load Order</title>
+	<script language="javascript">
+		function xyz ()
+		{
+			var xml_doc = new ActiveXObject("Microsoft.XMLDOM");
+			xml_doc.async = false;
+			xml_doc.load("order.xml");
+			alert("Load XML Sussces");
+			var current_node = xml_doc.documentElement;
+			document.write(current_node.xml);
+			if(xml_doc.parseError.errorcode != 0)
+			{
+			  document.writeln(xml_doc.parseError.reason);			
+			  
+			}
+			else
+			{
+			document.writeln(current_node.xml);	
+			
+			
+			} 
+			
+		}
+	</script>
+</head>
+
+<body>
+  <script> xyz() </script>
+  <h1> Hello ! </h1>
+</body>
+</html>

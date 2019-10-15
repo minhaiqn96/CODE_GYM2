@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Form Edit</h2>
+    <div>
+        <button class="btn btn-danger" type="button" [routerLink]="['/books']"
+            routerLinkActive="router-link-active">Back to Home</button>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" [(ngModel)]="detailOneBook.name" name="name" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="read"></label>
+            <input type="text" [(ngModel)]="detailOneBook.read" name="read" class="form-control" id="read">
+        </div>
+        <div>
+            <button class="btn btn-primary" type="submit" (click)="updateThisBook()">Update</button>
+        </div>
+        <div>
+            <button class="btn btn-success" type="submit" (click)="deleteThisBook()">Delete</button>
+        </div>
+    </form>
+</div>

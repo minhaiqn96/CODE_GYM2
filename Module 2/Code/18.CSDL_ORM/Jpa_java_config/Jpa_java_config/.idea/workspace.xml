@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvc5-springdatajpa2-jsp-mysql-example:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc1cd6d8-1a02-49f1-8e5c-b8c6ab674416" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/CountBicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/FilingCabinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/Furama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/InfoEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/SwimmingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/Thread/ThreadReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/Thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/Thread/ThreadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/accomodation/Accomodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/accomodation/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/accomodation/Tent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/accomodation/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/entertainment/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/entertainment/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/entertainment/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/entertainment/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/entertainment/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/payment/MasterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/payment/Visa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Furama/src/payment/inter/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Thời khóa biểu C0519G1 (1).xlsx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms1: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="customer: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>redirect</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/springmvc5_springdatajpa2_jsp_mysql_example_war_exploded2.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectId" id="1OmUTJF0ApnOKdsaPOjUgWddOk6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lap1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31149426" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Jpa_java_config\src\main\webapp\resources\js" />
+      <recent name="D:\CodeGym\Jpa_java_config\src\main\webapp\resources\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Jpa_java_config\src\main\resources" />
+      <recent name="D:\CodeGym\Jpa_java_config\src\main\java\com\codegym\cms" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="springmvc5-springdatajpa2-jsp-mysql-example:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springmvc_jpa_javaconfig_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50886" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvc5-springdatajpa2-jsp-mysql-example:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc1cd6d8-1a02-49f1-8e5c-b8c6ab674416" name="Default Changelist" comment="" />
+      <created>1563196384519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563196384519</updated>
+      <workItem from="1563196391596" duration="8297000" />
+      <workItem from="1563243914045" duration="186000" />
+      <workItem from="1563244166755" duration="1885000" />
+      <workItem from="1563263854510" duration="744000" />
+      <workItem from="1563264897521" duration="6193000" />
+      <workItem from="1563284402408" duration="1269000" />
+      <workItem from="1563332408484" duration="87000" />
+      <workItem from="1563333299489" duration="1511000" />
+      <workItem from="1563347622562" duration="544000" />
+      <workItem from="1563348203589" duration="609000" />
+      <workItem from="1563348852985" duration="78000" />
+      <workItem from="1563349081353" duration="18000" />
+      <workItem from="1563441461481" duration="278000" />
+      <workItem from="1563761175811" duration="2568000" />
+      <workItem from="1563766194663" duration="11000" />
+      <workItem from="1564582274280" duration="23000" />
+      <workItem from="1564583809153" duration="138000" />
+      <workItem from="1564583960330" duration="2072000" />
+      <workItem from="1564719408781" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

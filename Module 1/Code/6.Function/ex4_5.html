@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function returnMin(x, y, z) {
+            let min = x;
+            if (min > y) min = y;
+            if (min > z) min = z;
+            return min;
+        }
+        function main() {
+            let a = parseInt(prompt("Enter the any value 1: "));
+            let b = parseInt(prompt("Enter the any value 2: "));
+            let c = parseInt(prompt("Enter the any value 3: "));
+            document.write("Min is: " + returnMin(a, b, c));
+        }
+        main();
+    </script>
+</body>
+
+</html>

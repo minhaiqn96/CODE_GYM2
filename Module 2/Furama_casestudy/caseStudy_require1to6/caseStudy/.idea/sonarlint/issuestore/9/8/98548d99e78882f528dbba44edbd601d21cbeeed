@@ -1,0 +1,6 @@
+
+_squid:S00107"BConstructor has 10 parameters, which is greater than 7 authorized.(È›‚Øÿÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È›‚Øÿÿÿÿÿ
+hsquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×”ë
+lsquid:S00116"ORename this field "CMND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÄãÉýÿÿÿÿ
+Psquid:S3400p"9Remove this method and declare a constant for this value.(”·³›

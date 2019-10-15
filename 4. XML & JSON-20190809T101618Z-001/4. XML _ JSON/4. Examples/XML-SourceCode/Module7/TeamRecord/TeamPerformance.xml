@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Performance.xsl"?>
+
+<!--
+    Document   : TeamPerformance.xml
+    Author     : vincent
+    Description:
+        This XML document is used to store information about individual 
+        team performance.
+-->
+
+<Team>
+  <Data>
+    <Name>Indiana Pacers</Name>
+    <Won>56</Won>
+    <Lost>26</Lost>
+    <Draw>10</Draw>
+    <Points>870</Points>
+  </Data>
+  <Data>
+    <Name>Maimi Heat</Name>
+    <Won>52</Won>
+    <Lost>30</Lost>
+    <Draw>18</Draw>
+    <Points>745</Points>
+  </Data>
+  <Data>
+    <Name>Portland</Name>
+    <Won>59</Won>
+    <Lost>23</Lost>
+    <Draw>17</Draw>
+    <Points>810</Points>
+  </Data>
+  <Data>
+    <Name>LA Lakers</Name>
+    <Won>67</Won>
+    <Lost>15</Lost>
+    <Draw>20</Draw>
+    <Points>910</Points>
+  </Data>
+</Team>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let userName = prompt("Enter the UserName");
+        if (userName == "Admin") {
+            let pass = prompt("Enter the password");
+            if (pass == "TheMaster") {
+                alert("You are welcome");
+            }
+            else if (pass == "") {
+                alert("Canceld");
+            }
+            else {
+                alert("Wrong Password");
+            }
+        }
+        else if (userName == "") {
+            alert("Canceld");
+        }
+        else {
+            alert("I don't know you");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+
+gsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(Èµ«–úÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùÌ´Ëûÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Î…éß
+gsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(˜­ýêúÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜˜Øßûÿÿÿÿ
+bsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(Ð˜Àµ
+gsquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(×ÿ÷Ìúÿÿÿÿ
+Esquid:S1481
+")Remove this unused "size" local variable.(ëèëùúÿÿÿÿ
+psquid:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ñàù„
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢î¶Àüÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ
+bsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ç îÐ

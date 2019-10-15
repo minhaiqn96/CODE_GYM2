@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Bậc 1: 4 triệu đồng/tháng 0%;
+        // Bậc 2: Trên 4 - 6 triệu đồng/tháng: 5%;
+        // Bậc 3: Trên 6 - 9 triệu đồng: 10%;
+        // Bậc 4: Trên 9 - 14 triệu đồng/tháng: 15%;
+        // Bậc 5: trên 14 - 24 triệu đồng/tháng: 20%;
+        // Bậc 6: Trên 24 - 44 triệu đồng/tháng: 25%;
+        // Bậc 7: Trên 44 - 84 triệu đồng/tháng: 30%;
+        // Bậc 8: Trên 84 triệu đồng: 35%.
+        let salary = parseInt(prompt("Enter the salary number: "));
+        if (salary <= 4) {
+            document.write("Person income tax: " + "0 VND");
+        }
+        else if (4 < salary && salary <= 6) {
+            document.write("Person income tax: " + (salary * 5 / 100));
+        }
+        else if (6 < salary && salary <= 9) {
+            document.write("Person income tax: " + (salary * 10 / 100));
+        }
+        else if (9 < salary && salary <= 14) {
+            document.write("Person income tax: " + (salary * 15 / 100));
+        }
+        else if (14 < salary && salary <= 24) {
+            document.write("Person income tax: " + (salary * 20 / 100));
+        }
+        else if (24 < salary && salary <= 44) {
+            document.write("Person income tax: " + (salary * 25 / 100));
+        }
+        else if (44 < salary && salary <= 84) {
+            document.write("Person income tax: " + (salary * 30 / 100));
+        }
+        else if (84 < salary) {
+            document.write("Person income tax: " + (salary * 35 / 100));
+        }
+    </script>
+</body>
+
+</html>

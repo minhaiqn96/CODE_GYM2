@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let valueTemperature = parseInt(prompt("Enter the value temperature: "));
+        while (valueTemperature > 100) {
+            alert("You should decrease Temperature value");
+            valueTemperature = parseInt(prompt("Enter the value temperature: "));
+            while (valueTemperature < 20) {
+                alert("You should increase Temperature value");
+                valueTemperature = parseInt(prompt("Enter the value temperature: "));
+            }
+        }
+
+        while (valueTemperature < 20) {
+            alert("You should increase Temperature value");
+            valueTemperature = parseInt(prompt("Enter the value temperature: "));
+            while (valueTemperature > 100) {
+                alert("You should decrease Temperature value");
+                valueTemperature = parseInt(prompt("Enter the value temperature: "));
+            }
+        }
+        alert("This Temperature value valid");
+    </script>
+</body>
+
+</html>

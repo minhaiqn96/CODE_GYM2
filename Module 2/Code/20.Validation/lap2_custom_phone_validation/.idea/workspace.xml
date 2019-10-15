@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6f6e028-d75f-446d-9279-a8787a3eee0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../demo_jpa/src/main/webapp/WEB-INF/views/customer/createcustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo_jpa/src/main/webapp/WEB-INF/views/customer/editcustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo_jpa/src/main/webapp/WEB-INF/views/customer/showcustomer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/CountBicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/FilingCabinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Furama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/InfoEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/SwimmingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Accomodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Tent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/MasterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/Visa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/inter/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Thời khóa biểu C0519G1 (1).xlsx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectId" id="1OlXoAr2JHfnj7S3TdqOpllKffm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2.Array_And_Method" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31149426" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODE GYM\Module 2\Code\20.Validation\lap2_custom_phone_validation\src\main\webapp\WEB-INF" />
+      <recent name="E:\CODE GYM\Module 2\Code\20.Validation\lap2_custom_phone_validation\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.211" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.211" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Gradle : com.hai : custom_phone_validation-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_custom_phone_validation" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63369" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.hai : custom_phone_validation-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6f6e028-d75f-446d-9279-a8787a3eee0f" name="Default Changelist" comment="" />
+      <created>1563353858153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563353858153</updated>
+      <workItem from="1563353861408" duration="2917000" />
+      <workItem from="1564480005209" duration="97000" />
+      <workItem from="1564553332653" duration="22000" />
+      <workItem from="1564553594077" duration="268000" />
+      <workItem from="1564555070072" duration="17000" />
+      <workItem from="1564563047185" duration="232000" />
+      <workItem from="1564581550750" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

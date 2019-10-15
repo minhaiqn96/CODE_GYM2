@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <p>If you click on the "Hide" button, I will disappear</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button><br><br>
+    <button>Start Animation</button><br><br>
+    <div style="background:#98bf21;height:100px;width:200px;position:absolute;">Hello</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#hide").click(function () {
+            $("p").hide();
+        });
+        $("#show").click(function () {
+            $("p").show();
+        });
+
+        $("button").click(function () {
+            var div = $("div");
+            div.animate({ left: '100px'}, "slow");
+            div.animate({ fontSize: '50px'}, "slow");
+        });
+    });
+</script>
+
+</html>

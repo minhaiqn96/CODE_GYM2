@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lap2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81595318-d9e6-4e79-b3d9-9fedcf3925d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex1/src/controllers/ConvertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex1/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex1/web/WEB-INF/views/viewVND.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex2/src/controllers/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex2/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex2/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/ex2/web/WEB-INF/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/lap1/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.Spring MVC/lap1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/ex1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/modules/spring-email-validation_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/src/main/java/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap3/src/main/webapp/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/modules/spring-timezone_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16.Spring_Controller/lap4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/CountBicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/FilingCabinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Furama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/InfoEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/SwimmingPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/Thread/ThreadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Accomodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Tent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/accomodation/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/entertainment/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/MasterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/Visa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Furama/src/payment/inter/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Thời khóa biểu C0519G1 (1).xlsx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectId" id="1OmUnPjSXNixJ6f4EnLN37kYEkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lap3" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.211" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="lap2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_211_lap2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54194" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lap2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81595318-d9e6-4e79-b3d9-9fedcf3925d3" name="Default Changelist" comment="" />
+      <created>1562225812263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562225812263</updated>
+      <workItem from="1562225817411" duration="3455000" />
+      <workItem from="1562229321325" duration="606000" />
+      <workItem from="1562257125554" duration="916000" />
+      <workItem from="1562520577420" duration="1729000" />
+      <workItem from="1562549927472" duration="2759000" />
+      <workItem from="1562557461100" duration="1398000" />
+      <workItem from="1562987857089" duration="921000" />
+      <workItem from="1564582433258" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

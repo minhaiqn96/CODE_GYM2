@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let n = parseInt(prompt("Enter the number element in array: "));
+        let arr = [];
+        for (let i = 0; i < n; i++) {
+            let value = parseInt(prompt("Enter the value at position " + i + " : "));
+            arr[i] = value;
+        }
+        
+        document.write("Before array is reversed: " + arr + "<br>");
+
+        function reverse(value) {
+            let first = 0;
+            let last = value.length - 1;
+            while (first < last) {
+                res = value[first];
+                value[first] = value[last];
+                value[last] = res;
+                first++;
+                last--;
+            }
+        }
+        reverse(arr);
+        document.write("After array is reversed: " + arr);
+    </script>
+</body>
+
+</html>

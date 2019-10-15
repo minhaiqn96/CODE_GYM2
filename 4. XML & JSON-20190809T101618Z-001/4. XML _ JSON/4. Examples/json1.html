@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+Name: <span id="name"></span><br>
+Address: <span id="address"></span><br>
+Phone: <span name="phone"></span><br>
+Identity Card: <span name="id"></span><br>
+
+<script>
+    var obj = {
+        'name':'TienTTT',
+        'address':'Đà Nẵng',
+        'phone':'01318648547',
+        'id':'205667799'
+    };
+    document.getElementById('name').innerHTML = obj.name;
+    document.getElementById('address').innerHTML = obj.address;
+    document.getElementsByName('phone')[0].innerHTML = obj.phone;
+    document.getElementsByName('id')[0].innerHTML = obj.id;
+</script>
+</body>
+</html>

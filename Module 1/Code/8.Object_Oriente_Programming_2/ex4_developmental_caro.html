@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 50px;
+            padding-left: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <strong>
+        <h1>Caro Game Simple</h1>
+    </strong>
+    <p id="carogame"></p>
+    <input type="submit" value="Player 1" onclick="changeValue1()">
+    <input type="submit" value="Player 2" onclick="changeValue2()">
+    <strong>
+        <h1 id="showrs"></h1>
+    </strong>
+
+    <script>
+        let board = [];
+        let data = "";
+
+        for (let i = 0; i < 20; i++) {
+            board[i] = [" . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . "];
+            data = data + "<br>";
+            for (let j = 0; j < 20; j++) {
+                data = data + board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        }
+        document.getElementById("carogame").innerHTML = data;
+
+        function changeValue1() {
+            let posX = parseInt(prompt("Enter the number value X: ") - 1);
+            let posY = parseInt(prompt("Enter the number value Y: ") - 1);
+            data = "";
+            board[posX][posY] = "X";
+            for (let i = 0; i < 20; i++) {
+                data += "<br>";
+                for (let j = 0; j < 20; j++) {
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+            }
+
+            for (let i = 0; i < 20; i++) {
+                for (let j = 0; j < 20; j++) {
+                    if (board[i][j] == "X") {
+                        if (board[i + 1][j] == "X" && board[i + 2][j] == "X" && board[i + 3][j] == "X" && board[i + 4][j] == "X") {
+                            document.getElementById("showrs").innerHTML = "Player 1 win";
+                        }
+                        else if (board[i][j + 1] == "X" && board[i][j + 2] == "X" && board[i][j + 3] == "X" && board[i][j + 4] == "X") {
+                            document.getElementById("showrs").innerHTML = "Player 1 win";
+                        }
+                        else if (board[i + 1][j + 1] == "X" && board[i + 2][j + 2] == "X" && board[i + 3][j + 3] == "X" && board[i + 4][j + 4] == "X") {
+                            document.getElementById("showrs").innerHTML = "Player 1 win";
+                        }
+                    }
+                }
+            }
+            document.getElementById("carogame").innerHTML = data;
+        }
+
+        function changeValue2() {
+            let posX = parseInt(prompt("Enter the number value X: ") - 1);
+            let posY = parseInt(prompt("Enter the number value Y: ") - 1);
+            data = "";
+            board[posX][posY] = "O";
+            for (let i = 0; i < 20; i++) {
+                data += "<br>";
+                for (let j = 0; j < 20; j++) {
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+            }
+
+            for (let i = 0; i < 20; i++) {
+                for (let j = 0; j < 20; j++) {
+                    if (board[i][j] == "O") {
+                        if (board[i + 1][j] == "O" && board[i + 2][j] == "O" && board[i + 3][j] == "O" && board[i + 4][j] == "O") {
+                            document.getElementById("showrs").innerHTML = "Player 2 win";
+                        }
+                        else if (board[i][j + 1] == "O" && board[i][j + 2] == "O" && board[i][j + 3] == "O" && board[i][j + 4] == "O") {
+                            document.getElementById("showrs").innerHTML = "Player 2 win";
+                        }
+                        else if (board[i + 1][j + 1] == "O" && board[i + 2][j + 2] == "O" && board[i + 3][j + 3] == "O" && board[i + 4][j + 4] == "O") {
+                            document.getElementById("showrs").innerHTML = "Player 2 win";
+                        }
+                    }
+                }
+            }
+            document.getElementById("carogame").innerHTML = data;
+        }
+    </script>
+</body>
+
+</html>

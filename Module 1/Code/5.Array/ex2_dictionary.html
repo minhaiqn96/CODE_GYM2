@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 200px;
+            padding-left: 500px
+        }
+    </style>
+    <strong>
+        <h1>DICTIONARY</h1>
+    </strong>
+
+</head>
+
+<body>
+    <input type="text" id="enter" placeholder="Enter the word">
+    <input type="submit" value="Seach" onclick="find()">
+    <p id="rs"></p>
+    <script>
+        let arre = ["apple", "book", "mouse", "university", "bicycle"];
+        let arrv = ["Quả táo", "Cuốn sách", "Con chuột", "Trường Đại học", "xe đạp"];
+        let x = 0;
+
+        function find() {
+            let a = document.getElementById("enter").value;
+            for (let i = 0; i < arre.length; i++) {
+                if (arre[i] == a) {
+                    alert(arrv[i]);
+                    return x;
+                }
+            }
+            if (x == 0) alert("No find thing you need");
+        }
+    </script>
+</body>
+
+</html>

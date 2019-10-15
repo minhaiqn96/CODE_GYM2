@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Purchase.xml
+    Author     : vincent
+    Description:
+        The xml file contains the employee details and the items ordered by a particular employee.
+-->
+
+<PurchaseOrder>
+  <Employee>
+    <Name> Bobby John </Name>
+    <Department> Learning Services </Department>
+    <EmployeeId> E123 </EmployeeId>
+    <Designation> Manager </Designation>
+  </Employee>
+  <Items>
+    <OrderItem>
+      <ProductCode> P001 </ProductCode>
+      <ProductName> Ink Jet Printer </ProductName>
+      <Description> HCL Ink jet Printer </Description>
+      <Quantity> 1 </Quantity>
+      <Price> 15000.00 </Price>
+    </OrderItem>
+    <OrderItem>
+      <ProductCode> P0021 </ProductCode>
+      <ProductName> AntiGlare Screen </ProductName>
+      <Description> Black Anti Glare Screen </Description>
+      <Quantity> 25 </Quantity>
+      <Price> 150.00 </Price>
+    </OrderItem>
+  </Items>
+</PurchaseOrder>

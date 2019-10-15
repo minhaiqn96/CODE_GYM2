@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Employee_dtd.dtd
+    Author     : vincent
+    Description: Purpose of the document follows.
+-->
+
+<!ELEMENT SalaryDetail (Employee+)>
+<!ELEMENT Employee (EmployeeName, Grade,
+           AccountNumber, Designation, PANNumber, PFNumber, Earning, Deduction)>
+<!ATTLIST Employee
+	EmployeeNumber ID #REQUIRED
+>
+<!ELEMENT EmployeeNumber (#PCDATA)>
+<!ELEMENT EmployeeName (#PCDATA)>
+<!ELEMENT Grade (#PCDATA)>
+<!ELEMENT AccountNumber (#PCDATA)>
+<!ELEMENT Designation (#PCDATA)>
+<!ELEMENT PANNumber (#PCDATA)>
+<!ELEMENT PFNumber (#PCDATA)>
+
+<!ELEMENT Earning (Basic, HRA, CityAllowance, ConveyanceAllowance)>
+   <!ELEMENT Basic (#PCDATA)>
+   <!ELEMENT HRA (#PCDATA)>
+   <!ELEMENT CityAllowance (#PCDATA)>
+   <!ELEMENT ConveyanceAllowance (#PCDATA)>
+
+<!ELEMENT Deduction (IncomeTax, PF, ProfessionalTax)>
+   <!ELEMENT IncomeTax (#PCDATA)>
+   <!ELEMENT PF (#PCDATA)>
+   <!ELEMENT ProfessionalTax (#PCDATA)>
+   
+   

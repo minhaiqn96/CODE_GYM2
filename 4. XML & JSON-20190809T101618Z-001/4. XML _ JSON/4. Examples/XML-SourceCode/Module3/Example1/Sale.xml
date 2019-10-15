@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Sale.xml
+    Created on : February 27, 2007, 10:48 AM
+    Author     : jobyk
+    Description:
+        Purpose of the document follows.
+-->
+
+<!DOCTYPE SaleDetail SYSTEM 'SalesDetail_dtd.dtd'>
+<SaleDetail>
+
+</SaleDetail>

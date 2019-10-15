@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80778d3b-6d52-4da3-b692-ce82d98f2d62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module 2/Code/12.Web/lap1/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Module_4/BackEnd-JV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../NOTE-COMMAND/FormatCode.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/ex1_gameGuessNumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/ex2_regularEpressionViettel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/ex3_fixError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/ex4_productManagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/lap1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithm/lap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/ex1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/ex1_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/ex1_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/ex2_dictionary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/ex3_tic_tac_toe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/lap1_create_and_manipulation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/lap2_reverse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/lap3_find_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/lap4_find_max_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/lap5_carochess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/star1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/star1_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/star1_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudio_BouncingBallGame/bouncingBallGame.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudio_BouncingBallGame/bouncingBallGame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudio_BouncingBallGame/bouncingBallGame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/dx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex1.checkPrime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex2_convert_feetMeters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex3_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex3_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex3_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex3_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex3_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/ex4_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/lap1_create_and_call_function.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/lap2_temperatureConverter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Function/lap3_findMinArray.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/ex1_constructRectangle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/ex2_temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/ex3_mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/ex3_telephone_toan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/lap1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/lap2_classConstructCircle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_1/lap3_funnyCircles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/ex1_Game_Move_Object.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/ex2_Adam_Eva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/ex3_SwitchButton_ElectricLamp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/ex4_developmental_caro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/lap1_flashLight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object_Oriente_Programming_2/tesssst.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/ex1_validateEmail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/ex2_validateAcount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/ex3_validateClass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/ex4_validateTelephoneNumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/lap1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../String/lap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/Star_keyBoardEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/ex1_weight_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/ex2_switch_case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/ex3_calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/ex4_puzzle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/ex5_doyouloveme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap1_check_leap_year.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap4_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap4_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap4_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap5_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap5_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/lap6_mouse_event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/star1_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/star1_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/star2_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../condition/star2_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/ex1_multiplication_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/ex2_show_Prime_value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap1_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap2_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap2_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/lap4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star1_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loop/star2_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/caculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/chuyendoitiente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/ex1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/ex2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/ex3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/ex4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/operator/lap1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/variable/lap1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/variable/lap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable_operator/variable/lap3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex1/src/controllers/ConvertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex1/web/WEB-INF/views/viewVND.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex2/src/controllers/DictionaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex2/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex2/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/ex2/web/WEB-INF/views/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/lap1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/15.Spring MVC/lap1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/ex1/sanwich.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/ex1/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/ex1/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/ex1/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/lap2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap2/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/modules/spring-email-validation_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/src/main/java/controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap3/src/main/webapp/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/modules/spring-timezone_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/src/main/java/controller/TimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/lap4/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/src/com/codegym/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/src/com/codegym/model/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/src/com/codegym/model/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/web/WEB-INF/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/web/WEB-INF/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/16.Spring_Controller/web/WEB-INF/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Advanced_Object_Oriented_Design/src/animaledible/abs/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Advanced_Object_Oriented_Design/src/animaledible/cla/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Advanced_Object_Oriented_Design/src/animaledible/cla/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Advanced_Object_Oriented_Design/src/animaledible/main/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/AddElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/ex1/AddElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/ex2/FindMaxIn2DimensionalArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/lap1/ConvertTemperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/lap2/FindValueInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/lap3/FindMaxInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/lap4/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/lap5/ArrayIndexOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/star1/ReserveElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/star4/PoolingArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/star5/FindMinInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/star6/DeleteElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Array_And_Method/src/star8/SumDiagonalSquareMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/ClassAndObject/src/ex1/QuadraticEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/ClassAndObject/src/ex2/StopWatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/ClassAndObject/src/lap1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-method-extraction-master/src/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-method-extraction-master/src/CylinderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-variable-extraction-master/src/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/New folder/java-cleancode-refactoring-variable-extraction-master/src/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/aaaaaa/src/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/CleanCode_Refactoring/src/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/DataAndAlgorithm/src/dynamicphonelist/PhoneList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/DataAndAlgorithm/src/ex1/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/DataAndAlgorithm/src/ex2/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/DataAndAlgorithm/src/lap1/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/ex1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/ex1/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/impl/CircleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Extend/src/lap1/impl/CircleComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/JSP_And_JSTL/ex2/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/JSP_And_JSTL/lap1/web/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/2star/src/Show20FirstPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/ex1/src/ShowHello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/ex2/src/ReadNumbersToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap1/src/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap10/src/ApplicationCalculateLoanInterest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap2/src/DeclareAndUseVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap3/src/AreaRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap4/src/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap6/src/CountDaysOfMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap7/src/CheckPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap8/src/DesignMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/lap9/src/UCLN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/star1/src/IsLeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Java_programming_language/star2/src/BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/ex1/src/controller/ProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/ex1/web/product/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/lap1/.idea/libraries/taglibs_standard_spec_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/lap1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/lap1/src/customerManage/controller/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/lap1/src/customerManage/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/MVC Model/lap1/web/customer/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/WebDesign/.idea/libraries/javax_servlet_3_0_0_v201112011016_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/WebDesign/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/WebDesign/src/lap2_simple_login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/ex1/src/ProductDiscountCalculatorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap1/src/ServerTimeServlet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap2/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap3/src/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/lap4/src/TranslationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/src/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/untitled/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/untitled/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/untitled1/.idea/libraries/javax_servlet_3_0_0_v201112011016_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/Web/untitled1/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/demoTomcat/src/Servlet3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Code/src/testJava/helloWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/CountBicycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/FilingCabinet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/Furama.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/InfoEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/SwimmingPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/Thread/ThreadReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/Thread/ThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/Thread/ThreadWriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/accomodation/Accomodation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/accomodation/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/accomodation/Tent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/accomodation/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/entertainment/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/entertainment/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/entertainment/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/entertainment/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/entertainment/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/payment/MasterCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/payment/Visa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Furama/src/payment/inter/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module_4/C0519G1-DN/database/Dump20190828.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module_4/FontEnd/FontEnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Thời khóa biểu C0519G1 (1).xlsx" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1RqzAxmwgGPbj15w3pCDNeqrByH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../9.String" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80778d3b-6d52-4da3-b692-ce82d98f2d62" name="Default Changelist" comment="" />
+      <created>1570409274466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570409274466</updated>
+      <workItem from="1570409275591" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

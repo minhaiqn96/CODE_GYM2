@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="Modul5.xwp" homepath="F:\TienTTT\4. XML\2. Assignment" example_xsl="" example_xml="" output_folder="" output_ext="">
+	<group name="DTD/Schema Files" filter="*.dtd;*.xsd" description="This folder contains DTDs and XML Schema Files." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="Stylesheets" filter="*.css;*.xsl;*.xslt" description="This folder contains CSS and XSLT Stylesheets." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\TienTTT\4. XML\2. Assignment\modul5css1.css" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="0" caret_pos_y="13" sel_start_x="0" sel_start_y="13" sel_end_x="0" sel_end_y="13" window_x1="52" window_x2="1444" window_y1="52" window_y2="594" state="1"/>
+		</file>
+	</group>
+	<group name="XML Files" filter="*.xml" description="This folder contains XML Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\TienTTT\4. XML\2. Assignment\modul5.1.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl="">
+			<open caret_pos_x="34" caret_pos_y="21" sel_start_x="34" sel_start_y="21" sel_end_x="34" sel_end_y="21" window_x1="0" window_x2="1392" window_y1="0" window_y2="542" state="1"/>
+		</file>
+	</group>
+	<group name="Output Files" filter="*.htm;*.html" description="This folder receives output from XSL transformations." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+</project>

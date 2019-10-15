@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let array = [10, 5, 2, 8, -1, 6, 8];
+        // let array = [2, 4, 0, 5, 1];
+        // let array = [8, 6, 2, 6, 1, 1, 4];
+
+        function findMinScore(array) {
+            let min = array[0];
+            for (let i = 0; i < array.length; i++) {
+                if (min > array[i]) {
+                    min = array[i];
+                }
+            }
+            return min;
+        }
+        
+        document.write("Min of Array is: " + findMinScore(array));
+    </script>
+
+</body>
+
+</html>

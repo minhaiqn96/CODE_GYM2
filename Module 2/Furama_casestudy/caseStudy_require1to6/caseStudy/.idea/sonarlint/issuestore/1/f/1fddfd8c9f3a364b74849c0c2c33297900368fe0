@@ -1,0 +1,42 @@
+
+‹squid:S1192""tDefine a constant instead of duplicating this literal "The system has encountered an unexpected problem!!!" 6 times.(Ö†—ò
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(þ—ò¸úÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(³ÞíÏ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ö†—ò
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Ö†—ò
+N
+squid:S106."9Replace this use of System.out or System.err by a logger.(ª‚é@
+O
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ö†—ò
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Ö†—ò
+O
+squid:S106@"9Replace this use of System.out or System.err by a logger.(÷¨Æ†
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(Ö†—ò
+O
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ö†—ò
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(²ý…Çùÿÿÿÿ
+N
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(«‰²l
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(³ÇÇÉ
+O
+squid:S106X"9Replace this use of System.out or System.err by a logger.(Ãÿ˜ê
+T
+squid:S106["9Replace this use of System.out or System.err by a logger.(Â¼ÊÁûÿÿÿÿ
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(Ã§ö”þÿÿÿÿ
+O
+squid:S106b"9Replace this use of System.out or System.err by a logger.(úøÂº
+O
+squid:S106e"9Replace this use of System.out or System.err by a logger.(€¼Ò‰
+Ksquid:EmptyStatementUsageCheckn"Remove this empty statement.(Åñ­õþÿÿÿÿ
+=squid:S1481"&Remove this unused "x" local variable.(ÆÅ¦¾
+=squid:S1481,"&Remove this unused "x" local variable.(ÆÅ¦¾
+=squid:S1481>"&Remove this unused "x" local variable.(ÆÅ¦¾

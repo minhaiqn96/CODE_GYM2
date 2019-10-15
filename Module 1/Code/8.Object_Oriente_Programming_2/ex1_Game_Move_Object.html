@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <style>
+        body {
+            padding-top: 200px;
+            padding-left: 500px
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id="game"></div>
+    <script>
+        function Hero(image, top, left, size) {
+            this.image = image;
+            this.top = top;
+            this.left = left;
+            this.size = size;
+
+            this.getHeroElement = function () {
+                return '<img width="' + this.size + '"' +
+                    ' height="' + this.size + '"' +
+                    ' src="' + this.image + '"' +
+                    ' style="top: ' + this.top + 'px; left:' + this.left + 'px;position:absolute;" />';
+            }
+
+            this.moveRight = function () {
+                this.left = this.left + 20;
+                console.log('right: ' + this.left);
+            }
+            this.moveLeft = function () {
+                this.left = this.left - 20;
+                console.log('left: ' + this.left);
+            }
+            this.moveBottom = function () {
+                this.top = this.top + 20;
+                console.log('bottom: ' + this.top);
+            }
+            this.moveTop = function () {
+                this.top = this.top - 20;
+                console.log('top: ' + this.top);
+            }
+        }
+
+        var hero = new Hero('https://carboncostume.com/wordpress/wp-content/uploads/2016/09/conanedogawa.jpg', 0, 0, 200);
+
+        function start() {
+            if (hero.left < window.innerWidth - hero.size && hero.top == 0) {
+                hero.moveRight();
+            }
+            if (hero.left >= window.innerWidth - hero.size && hero.top < window.innerHeight - hero.size) {
+                hero.moveBottom();
+            }
+            if (hero.top >= window.innerHeight - hero.size && hero.left > 0) {
+                hero.moveLeft();
+            }
+            if (hero.top > 0 && hero.left == 0) {
+                hero.moveTop();
+            }
+            document.getElementById('game').innerHTML = hero.getHeroElement();
+            setTimeout(start, 50);
+        }
+
+        start();
+    </script>
+</body>
+
+</html>

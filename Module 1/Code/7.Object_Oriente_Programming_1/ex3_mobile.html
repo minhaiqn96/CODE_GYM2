@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function battery() {
+            this.statusBattery = 100;
+            this.getStatusBattery = getStatusBattery;
+            this.setChargeBattery = setChargeBattery;
+
+            function getStatusBattery() {
+                return this.statusBattery;
+            }
+            function setChargeBattery(value) {
+                this.statusBattery = value;
+            }
+        }
+        function mobile(battery) {
+            this.battery = battery;
+            this.saveInboxMesage = [];
+            this.saveWrittingMessage = [];
+            this.saveSentMessage = [];
+            this.statusBattery = false; // gan status ban dau cua dien thoai la tat
+
+            // cach khai bao ham khac
+            this.checkStatusBatteryOnOff = checkStatusBatteryOnOff;
+            function checkStatusBatteryOnOff() {
+                if (this.statusBattery == true) return true;
+                else return false;
+            }
+            // cach khai bao ham khac
+            this.turnOn = function () {
+                this.statusBattery = true;
+                this.battery.statusBattery--;
+            }
+            this.turnOff = function () {
+                this.statusBattery = false;
+                this.battery.statusBattery--;
+            }
+            this.chargeBattery = function () {
+                this.battery.setChargeBattery();
+            }
+            this.writtingMessage = function (message) {
+                if (this.checkStatusBatteryOnOff()) {
+                    this.saveWrittingMessage.push(message);
+                    this.battery.statusBattery--;
+                }
+            }
+            this.receiveMessage = function (message) {
+                if (this.checkStatusBatteryOnOff()) {
+                    this.saveInboxMesage.push(message);
+                    this.battery.statusBattery--;
+                }
+            }
+            this.sentMessage = function (message, telephone) {
+                if (this.checkStatusBatteryOnOff()) {
+                    telephone.receiveMessage(message);
+                    this.saveSentMessage.push(message);
+                    this.battery.statusBattery--;
+                }
+            }
+            this.checkInboxMessage = function () {
+                if (this.checkStatusBatteryOnOff()) {
+                    this.battery.statusBattery--;
+                    return this.saveInboxMesage.pop();
+                }
+            }
+            this.checkSentMessage = function (message) {
+                if (this.checkStatusBatteryOnOff()) {
+                    this.battery.statusBattery--;
+                    return this.saveSentMessage.pop(message);
+                }
+            }
+            // this.setstatusBattery = function(statusBattery){
+            //     this.statusBattery = statusBattery;
+            // }
+        }
+        let myBattery = new battery();
+        let samsung = new mobile(myBattery);
+        let blackberry = new mobile(myBattery);
+        samsung.turnOn();
+        blackberry.turnOn();
+
+        samsung.sentMessage("aloha", blackberry);
+        console.log(blackberry.checkInboxMessage());
+        console.log(samsung.checkSentMessage());
+        console.log(samsung.battery.getStatusBattery());
+        console.log(blackberry.battery.getStatusBattery())
+        console.log(samsung.checkStatusBatteryOnOff());
+        blackberry.writtingMessage("tin nhan dang viet");
+        console.log(blackberry.saveWrittingMessage);
+    </script>
+</body>
+
+</html>

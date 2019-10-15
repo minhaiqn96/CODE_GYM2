@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : election.xml
+    Created on : February 25, 2007, 10:07 AM
+    Author     : anoopc
+    Description:
+        Purpose of the document follows.
+-->
+
+<VoterDetails
+xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com election.xsd">
+<VoterName>Halle Brown</VoterName>
+<Gender>Female</Gender>
+<Age>22</Age>
+<DateOfBirth>04-06-08</DateOfBirth>
+<profession>Student</profession>
+<PhoneNumber>04024162567</PhoneNumber>
+<Address>378-Park Street, Ohio</Address>
+<City>4000 Stavanger</City>
+<State>Norway</State>
+</VoterDetails>

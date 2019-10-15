@@ -1,0 +1,9 @@
+<p>post-view works!</p>
+<div *ngFor="let a of myPost | async" >
+    {{a.title }}
+    {{a.description }}
+    {{a.content }}
+
+</div>
+
+<!-- *ngIf="myPost; else nothing" -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <title>HTML5</title>
+        <price>5.00</price>
+        <author>Peter</author>
+    </book>
+    <book>
+        <title>JAVA</title>
+        <price>8.00</price>
+        <author>John</author>
+    </book>
+    <book>
+        <title>C#</title>
+        <price>7.00</price>
+        <author>Bill Gates</author>
+    </book>
+    <book>
+        <title>SQL</title>
+        <price>10.00</price>
+        <author>Steven Job</author>
+    </book>
+</bookstore>

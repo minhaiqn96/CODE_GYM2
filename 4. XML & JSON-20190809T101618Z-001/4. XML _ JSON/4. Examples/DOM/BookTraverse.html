@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+    Document   : BookTraverse.xml
+    Author     : vincent
+    Description:
+        Traverses through all the nodes and attributes of the BookData.xml file and displays the same.
+-->
+
+<html>
+  <head>
+    <title> Book Details </title>
+    <script language="JavaScript" For = window EVENT = onload>
+      load_document()
+    </script>
+    
+    <script language="JavaScript">
+      var  xml_doc = new ActiveXObject("Microsoft.XMLDOM");
+      xml_doc.async = false; 
+      xml_doc.load("BookData.xml");
+      
+      function load_document() {
+        if(xml_doc.readyState =="4") {
+          displayBookDetails()
+        }
+        else {
+          window.setTimeout("load_document ()", 3000)
+        }
+      }
+      
+      function displayBookDetails() {
+        var newhtml="";
+        if(xml_doc.parseError.errorCode != 0 ){
+          alert("Parse Error line " + xml_doc.parseError.line + ", character " + 
+            xml_doc.parseError.linePos) 
+        }
+        else {
+          var root = xml_doc.documentElement;
+          var len = root.childNodes.length;
+          
+          for(i = 0; i < len; i++) {
+            var child = root.childNodes.item(i);
+            var attribute = xml_doc.documentElement.childNodes.item(i).attributes;
+            
+            for (count = 0; count < attribute.length; count++){
+              newhtml+= "<span style='font-weight:bold;font-sise:16'>" +
+                  attribute.item(count).name + 
+	         ":</span> <span style='font-weight:normal;font-sise:16'> " +
+                  attribute.item(count).text + "</span><p>";
+            }
+            
+            for(j = 0; j < child.childNodes.length; j++) {
+              newhtml += "<span style='font-weight:bold;font-sise:16'>" +
+                  child.childNodes.item(j).nodeName +
+		  ": </span> <span style='font-weight:normal;font-sise:16'>" +
+		  child.childNodes.item(j).text +"</span><p>";
+            }
+            
+            newhtml += "<hr>";
+          }
+          
+          content.innerHTML = newhtml;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <hr>
+    <h1> BrainMart Book Store </h1>
+    <hr>
+    <br>
+    <div ID="content" style="font-weight:bold;font-sise:16">
+    </div>
+    <br>
+  </body>
+</html>

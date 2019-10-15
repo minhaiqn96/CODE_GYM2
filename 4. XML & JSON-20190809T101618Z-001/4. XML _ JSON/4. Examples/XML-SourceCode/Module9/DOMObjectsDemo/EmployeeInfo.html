@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+    Document   : EmployeeInfo.html
+    Author     : vincent
+    Description:
+    Describes information about the Employee
+-->
+
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+ <script language="JavaScript">
+var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async = false;
+xmlDoc.load("EmpInfo.xml");
+var root= xmlDoc.documentElement;
+document.writeln( "Root Element of the Document <b>" + root.nodeName+ "</b>");
+//traverse all nodes 
+document.writeln( "</p><ul>" );
+if(root.hasChildNodes())
+for (i = 0; i < root.childNodes.length; i++ ) 
+{
+var curNode = root.childNodes.item(i);
+document.write( "<li>" + curNode.nodeName+ "</li>" );
+document.writeln( "<ul>" + curNode.text+ "</ul>" );
+}
+document.writeln( "</ul>" );
+//create new nodes
+var newElement = xmlDoc.createElement("EmployeeId");
+var newText = xmlDoc.createTextNode(" 1854 ");
+var newComment = xmlDoc.createComment(" This is a comment ");
+var newCdata = xmlDoc.createCDATASection("some quot&; character data");
+newElement.appendChild(newText);
+newElement.appendChild(newComment);
+newElement.appendChild(newCdata);
+//Add the new node newElement
+root.appendChild(newElement);
+//Display the newly added element node and its details
+var current_node = xmlDoc.documentElement.childNodes.item(3); 
+document.writeln("Newly Added Node :<b>"+current_node.nodeName +"</b><br>");
+document.writeln("Its contents: <b>"+current_node.text+"</b><br><br>");
+//Create a new node for replacing an existing node
+var newNode = xmlDoc.createElement("EmpId");
+var newNodeText = xmlDoc.createTextNode(" 2000 ");
+newNode.appendChild(newNodeText);
+//Replace the existing node with the new node
+root.replaceChild(newNode,newElement);
+//Display the newly added element node and its details
+var current_node = xmlDoc.documentElement.childNodes.item(3); 
+document.writeln("Node After replacement:<b>"+current_node.nodeName +"</b><br>");
+document.writeln("Its contents: <b>"+current_node.text+"</b><br><br>");
+//Retrieve attributes as a named node map
+var empNode = xmlDoc.selectSingleNode("//Employee");
+var namedNodeMap = empNode.attributes;
+var node=namedNodeMap.item(0);
+document.writeln("First attribute value is <b>"+node.text+"</b>");
+document.write("<br><br>");
+document.write("Complete List of Attribute Values for the first node are:");
+document.write("<br><br>");
+for(i = 0;i<=(namedNodeMap.length-1);i++)
+{
+  document.writeln("<b>"+namedNodeMap(i).text+"</b>");
+
+}
+</script>
+  </body>
+</html>
+
+
+

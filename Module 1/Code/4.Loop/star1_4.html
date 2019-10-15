@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = 0; b = 1;
+        let count = 0;
+        while (count == 0) {
+            c = a + b;
+            if (c % 5 == 0) {
+                count = count + 1;
+            }
+            a = b;
+            b = c;
+        }
+        document.write(c + " is first number in Fibonancy chain % 5");
+    </script>
+</body>
+
+</html>

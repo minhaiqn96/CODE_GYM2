@@ -1,0 +1,5 @@
+
+isquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ØÌ•
+tsquid:S3008	"XRename this field "service_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¼ºÎøÿÿÿÿ
+ksquid:S00100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²­‘¥ÿÿÿÿÿ
+fsquid:S00100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ØÌ•

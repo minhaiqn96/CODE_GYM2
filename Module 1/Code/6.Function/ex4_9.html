@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function countCharInArray(char, array) {
+            let count = 0;
+            for (let i = 0; i < array.length; i++) {
+                if (array[i] === char) {
+                    count = count + 1;
+                }
+            }
+            return count;
+        }
+        function main() {
+            let arr = ["a", "b", "c", "a", "d", "a", "f", "a"];
+            let input = prompt("Enter the any character: ");
+
+            let count = countCharInArray(input, arr);
+
+            if (count > 0) {
+                document.writeln("The number occurrence of character " + input + " in array " + arr.join() + " is: " + count);
+            } else {
+                document.writeln("Not occurrence character " + input + " in array " + arr.join());
+            }
+        }
+        main();
+    </script>
+</body>
+
+</html>

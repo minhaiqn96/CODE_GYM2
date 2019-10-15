@@ -1,0 +1,1 @@
+accomodation_typeSELECT * FROM furama.accomodation_type;

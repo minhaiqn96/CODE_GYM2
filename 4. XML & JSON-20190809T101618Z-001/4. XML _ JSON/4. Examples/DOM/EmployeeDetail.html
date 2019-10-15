@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+    Document   : EmployeeDetail.html
+    Author     : vincent
+    Description:
+      Loads the XML file and displays information from the Employees.xml file.
+-->
+<html>
+  <head>
+    <title> Employee Detail </title>
+    <script language="JavaScript" For = window EVENT = onload>
+      load_document()
+    </script>
+    
+    <script language="JavaScript">
+      var  xml_doc = new ActiveXObject("Microsoft.XMLDOM");
+      xml_doc.async = false;
+      xml_doc.load("Employees.xml");
+      
+      function load_document() {
+        if(xml_doc.readyState =="4") {
+          displayDetails()
+        }
+        else {
+          window.setTimeout("load_document ()", 3000)
+        }
+      }
+      
+      function displayDetails() {
+        var root = xml_doc.documentElement
+        var child1 = root.childNodes.item(0);
+        empname.innerText = child1.childNodes.item(0).text;
+        grade.innerText=child1.childNodes.item(1).text;
+        accnumber.innerText=child1.childNodes.item(2).text;
+        desig.innerText=child1.childNodes.item(3).text;
+        pan.innerText=child1.childNodes.item(4).text;
+        pf.innerText=child1.childNodes.item(5).text;
+        var child2=child1.childNodes.item(6);
+          basic.innerText=child2.childNodes.item(0).text;
+          hra.innerText=child2.childNodes.item(1).text;
+          cityall.innerText=child2.childNodes.item(2).text;
+          convall.innerText=child2.childNodes.item(3).text;
+        var child3=child1.childNodes.item(7);
+          income.innerText=child3.childNodes.item(0).text;
+          pfund.innerText=child3.childNodes.item(1).text;
+          prof.innerText=child3.childNodes.item(2).text;
+       }
+    </script>
+  </head>
+  <body>
+    <hr>
+    <h2><center>Michigan Software Limited </h2> <h3> Wall Street, New York</center></h3>
+    <hr>
+    <h4> <u> Employee Detail</u> </h3>
+    <br>
+    <table border=2>
+    <tr> <td>
+    <div ID="employee" style="font-weight:bold; font-size:16">
+      Name: </td><td>
+    <span ID="empname" style="font-weight:normal; color:blue"> </span>
+    </div> </td>
+    <tr> <td> 
+    <div ID="gr" style="font-weight:bold; font-size:16">
+      Grade: </td> <td>
+    <span ID="grade" style="font-weight:normal; color:blue"> </span>
+    </div> <td> </tr>
+    <tr> <td>
+    <div ID="account" style="font-weight:bold; font-size:16">
+      Account Number: </td> <td>
+    <span ID="accnumber" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="des" style="font-weight:bold; font-size:16">
+      Designation: </td> <td>
+    <span ID="desig" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="pannum" style="font-weight:bold; font-size:16">
+      SSN Number: </td> <td>
+    <span ID="pan" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="pfnum" style="font-weight:bold; font-size:16">
+      PF Number: </td> <td>
+    <span ID="pf" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="bas" style="font-weight:bold; font-size:16">
+      Basic: </td> <td>
+    <span ID="basic" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="hr" style="font-weight:bold; font-size:16">
+      HRA: </td> <td>
+    <span ID="hra" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="city" style="font-weight:bold; font-size:16">
+      City Allowance: </td> <td>
+    <span ID="cityall" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="conveyance" style="font-weight:bold; font-size:16">
+      Conveyance Allowance: </td> <td>
+    <span ID="convall" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="inc" style="font-weight:bold; font-size:16">
+      Income Tax: </td> <td>
+    <span ID="income" style="font-weight:normal; color:blue"> </span>
+    </div> </tr> </td>
+    <tr> <td>
+    <div ID="provfund" style="font-weight:bold; font-size:16">
+      Provident Fund: </td> <td> 
+    <span ID="pfund" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    <tr> <td>
+    <div ID="pro" style="font-weight:bold; font-size:16">
+      Professional Tax: </td> <td> 
+    <span ID="prof" style="font-weight:normal; color:blue"> </span>
+    </div> </td> </tr>
+    </table>
+  </body>
+</html>

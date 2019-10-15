@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            padding-top: 150px;
+            padding-left: 500px
+        }
+    </style>
+</head>
+
+<body>
+    <strong>
+        <h1>Caro Game Simple</h1>
+    </strong>
+    <p id="carogame"></p>
+    <input type="submit" value="Change Value" onclick="changeValue()">
+
+    <script>
+        let board = [];
+        let data = "";
+        for (let i = 0; i < 5; i++) {
+            board[i] = ["O", "O", "O", "O", "O"];
+            data = data + "<br>";
+            for (let j = 0; j < 5; j++) {
+                data = data + board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+        }
+        document.getElementById("carogame").innerHTML = data;
+
+        function changeValue() {
+            let posX = parseInt(prompt("Enter the number value X: ") - 1);
+            let posY = parseInt(prompt("Enter the number value Y: ") - 1);
+            data = "";
+            board[posX][posY] = "X";
+            for (let i = 0; i < 5; i++) {
+                data += "<br>";
+                for (let j = 0; j < 5; j++) {
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+            }
+            document.getElementById("carogame").innerHTML = data;
+        }
+    </script>
+</body>
+
+</html>
